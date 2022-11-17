@@ -60,6 +60,9 @@ def play_wordle(first_guess, solution, second_guess=None):
 
 def play_once(first_guess, solution, second_guess):
     play_wordle(first_guess=first_guess, solution=solution, second_guess=second_guess)
+    art = open("art.txt", "r").read()
+    with open('result.txt', 'a') as f:
+        f.write(f"\n\n{art}\n\n\n")
 
 def play_100_rounds(first_guess, second_guess):
     result = 0
@@ -149,7 +152,7 @@ def replay_all_failed_words(first_guess, second_guess):
             print(e)
             continue
 
-play_all_rounds(first_guess="crane", second_guess="slipt")
+#play_all_rounds(first_guess="crane", second_guess="slipt")
 #play_all_rounds(first_guess="tronc", second_guess="aisle")
 #play_all_rounds(first_guess="salet", second_guess="crony")
 #play_all_rounds(first_guess="taler", second_guess="coins")
@@ -158,4 +161,4 @@ play_all_rounds(first_guess="crane", second_guess="slipt")
 #replay_all_failed_words(first_guess="crane", second_guess="slipt")
 
 
-#play_once(first_guess="crane", second_guess="slipt", solution="baker")
+play_once(first_guess="crane", second_guess="slipt", solution="there")
