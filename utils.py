@@ -104,7 +104,7 @@ def take(n, iterable):
 
 def calculate_word_score(guess):
     letter_value_dict = {
-        "E": 3.5,
+        "E": 5.5,
         "A": 3.0,
         "R": 8.11,
         "O": 2.0,
@@ -133,7 +133,8 @@ def calculate_word_score(guess):
     }
     unlikely_pairs = ["cc", "kk", "dd", "vv", "ii", "bb"]
     unlikely_double_letters = ["y", "x", "k"]
-    bad_words_list = ["serra", "verre", "riley", "farro", "drere", "frere", "grebe", "surer", "serer", "dadah", "gammy", "gaumy", "gamme", "gordo", "verde", "borde", "colly", "sures", "etage", "cunny", "bouge", "grrrl", "lotto", "nalla", "algal", "narra", "ghusl", "hough", "armer", "meake", "dered", "boner", "honky", "perry", "dotty", "nahal", "putti", "horny", "setae", "shite", "selle", "statu", "steme", "surra", "titer", "hotte", "mitta", "ralli", "natty", "natto", "botte", "pervy", "buffy", "fremd", "hamed", "moder"]
+    bad_words_list = ["serra", "verre", "riley", "farro", "drere", "frere", "grebe", "surer", "serer", "dadah", "gammy", "gaumy", "gamme", "gordo", "verde", "borde", "colly", "sures", "etage", "cunny", "bouge", "grrrl", "lotto", "nalla", "algal", "narra", "ghusl", "hough", "armer", "meake", "dered", "boner", "honky", "perry", "dotty", "nahal", "putti", "horny", "setae", "shite", "selle", "statu", "steme", "surra", "titer", "hotte", "mitta", "ralli", "natty", "natto", "botte", "pervy", "buffy", "fremd", "hamed", "moder", "teade", "algum", "alway", "fosse", "heder", "larga", "badam", "matty", "genet", "kanal", "gosse", "outgo"]
+
     value = 0.0
     for letter in guess:
         value += letter_value_dict[letter.upper()]
@@ -160,7 +161,7 @@ def calculate_word_score(guess):
     return value
 
 def choose_next_word(words_file, anti_word_trap=False):
-    excempt_from_commonality_boost = ["harry", "randy", "sally", "diane", "tanto", "perdu", "amour", "kandy", "henry", "bundy", "homer", "roger", "mucho", "bayer"]
+    excempt_from_commonality_boost = ["harry", "randy", "sally", "diane", "tanto", "perdu", "amour", "kandy", "henry", "bundy", "homer", "roger", "mucho", "bayer", "craig", "moner", "kutch", "niger", "dover", "raped", "allen", "yahoo", "peggy", "holly", "laura"]
     scores_dict = {}
     top_candidates_dict = {}
     for word in words_file:
@@ -400,7 +401,7 @@ def new_guess(game, guess, words_file, rounds):
     for key in answer:
         if answer[key] is "G":
             green_list.append(guess[key-1])
-    if g_frequency in [4] and rounds < 5 and len(words_file) > 3:
+    if g_frequency in [4] and rounds < 5 and len(words_file) > 4:
         new_guess = fix_word_trap(words_file, guess, green_list)
     else:
         new_guess = choose_next_word(words_file)

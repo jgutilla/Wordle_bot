@@ -29,6 +29,8 @@ def try_to_win(game, guess, words_file, second_guess_list, second_guess=None):
             with open('result.txt', 'a') as f:
                 f.write("🟩🟩🟩🟩🟩" + "\n")
                 f.write(f"{rounds}/6" + "\n")
+            with open('solved_metrics.txt', 'a') as v:
+                v.write(f"{rounds}:{len(words_file)}" + "\n")
             print(f"Solved in {rounds} rounds!")
             if rounds == 6:
                 with open('6_round_words.txt', 'a') as g:
@@ -82,6 +84,14 @@ def play_100_rounds(first_guess, second_guess):
 def play_all_rounds(first_guess, second_guess):
     result = 0
     answers_file = open("past_answers.txt", "r").read().split(' ')
+    with open('6_round_words.txt', 'w') as f:
+        f.write("")
+    with open('failed_words.txt', 'w') as f:
+            f.write("")
+    with open('guessed_words.txt', 'w') as f:
+            f.write("")
+    with open('solved_metrics.txt', 'w') as f:
+            f.write("")
     answers_list = copy.deepcopy(answers_file)
     x = 1
     for solution in answers_list:
@@ -99,6 +109,12 @@ def play_all_rounds(first_guess, second_guess):
 def replay_all_6_round_words(first_guess, second_guess):
     result = 0
     answers_file = open("6_round_words.txt", "r").read().split('\n')
+    with open('6_round_words.txt', 'w') as f:
+        f.write("")
+    with open('guessed_words.txt', 'w') as f:
+            f.write("")
+    with open('solved_metrics.txt', 'w') as f:
+            f.write("")
     answers_list = copy.deepcopy(answers_file)
     with open('6_round_words.txt', 'w') as y:
         y.write("")
@@ -116,6 +132,12 @@ def replay_all_failed_words(first_guess, second_guess):
     result = 0
     answers_file = open("failed_words.txt", "r").read().split('\n')
     answers_list = copy.deepcopy(answers_file)
+    with open('failed_words.txt', 'w') as f:
+        f.write("")
+    with open('guessed_words.txt', 'w') as f:
+            f.write("")
+    with open('solved_metrics.txt', 'w') as f:
+            f.write("")
     x = 1
     for solution in answers_list:
         print(f"Cycle: {x}\n")
@@ -127,7 +149,7 @@ def replay_all_failed_words(first_guess, second_guess):
             print(e)
             continue
 
-#play_all_rounds(first_guess="crane", second_guess="slipt")
+play_all_rounds(first_guess="crane", second_guess="slipt")
 #play_all_rounds(first_guess="tronc", second_guess="aisle")
 #play_all_rounds(first_guess="salet", second_guess="crony")
 #play_all_rounds(first_guess="taler", second_guess="coins")
@@ -136,4 +158,4 @@ def replay_all_failed_words(first_guess, second_guess):
 #replay_all_failed_words(first_guess="crane", second_guess="slipt")
 
 
-play_once(first_guess="crane", second_guess="slipt", solution="baker")
+#play_once(first_guess="crane", second_guess="slipt", solution="baker")
