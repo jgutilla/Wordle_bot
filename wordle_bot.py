@@ -152,7 +152,7 @@ def replay_all_failed_words(first_guess, second_guess):
             print(e)
             continue
 
-#play_all_rounds(first_guess="crane", second_guess="slipt")
+play_all_rounds(first_guess="crane", second_guess="slipt")
 #play_all_rounds(first_guess="tronc", second_guess="aisle")
 #play_all_rounds(first_guess="salet", second_guess="crony")
 #play_all_rounds(first_guess="taler", second_guess="coins")
@@ -161,4 +161,4 @@ def replay_all_failed_words(first_guess, second_guess):
 #replay_all_failed_words(first_guess="crane", second_guess="slipt")
 
 
-play_once(first_guess="crane", second_guess="slipt", solution="there")
+#play_once(first_guess="crane", second_guess="slipt", solution="there")

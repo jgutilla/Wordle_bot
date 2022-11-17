@@ -161,7 +161,7 @@ def calculate_word_score(guess):
     return value
 
 def choose_next_word(words_file, anti_word_trap=False):
-    excempt_from_commonality_boost = ["harry", "randy", "sally", "diane", "tanto", "perdu", "amour", "kandy", "henry", "bundy", "homer", "roger", "mucho", "bayer", "craig", "moner", "kutch", "niger", "dover", "raped", "allen", "yahoo", "peggy", "holly", "laura"]
+    excempt_from_commonality_boost = ["harry", "randy", "sally", "diane", "tanto", "perdu", "amour", "kandy", "henry", "bundy", "homer", "roger", "mucho", "bayer", "craig", "moner", "kutch", "niger", "dover", "raped", "allen", "yahoo", "peggy", "holly", "laura", "lohan"]
     scores_dict = {}
     top_candidates_dict = {}
     for word in words_file:
