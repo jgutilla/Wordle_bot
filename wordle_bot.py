@@ -10,7 +10,7 @@ def try_to_win(game, guess, words_file, second_guess_list, second_guess=None):
     rounds = 1
     while True:
         print(len(words_file))
-        if rounds == 2 and len(words_file) > 20:
+        if rounds == 2 and len(words_file) > 30:
             if second_guess:
                 guess = second_guess
             else:
