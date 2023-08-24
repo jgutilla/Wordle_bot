@@ -161,4 +161,4 @@ def replay_all_failed_words(first_guess, second_guess):
 #replay_all_failed_words(first_guess="crane", second_guess="slipt")
 
 
-play_once(first_guess="crane", second_guess="slipt", solution="tough")
+play_once(first_guess="crane", second_guess="slipt", solution="wordy")

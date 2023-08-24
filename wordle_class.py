@@ -16,16 +16,12 @@ class wordle:
         return number
 
     def slot_is_empty(self, key):
-        if self.return_dict[key] is "E":
-            return True
-        else:
-            return False
+        return self.return_dict[key] is "E"
+
 
     def slot_is_y(self, key):
-        if self.return_dict[key] is "T":
-            return True
-        else:
-            return False
+        return self.return_dict[key] is "T"
+
 
     def check_occurances(self, word, check_letter):
         occurances = 0
