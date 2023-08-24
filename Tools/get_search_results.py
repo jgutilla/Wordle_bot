@@ -2,7 +2,7 @@
 import requests, lxml
 from bs4 import BeautifulSoup
 import copy
-from master_score import MASTER_SCORE_DICT
+from Assets.master_score import MASTER_SCORE_DICT
 
 
 def get_google_score_old(guess):

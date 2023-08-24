@@ -18,7 +18,7 @@ def try_to_win(game, guess, words_file, second_guess_list, second_guess=None):
         if rounds > 6:
             with open('result.txt', 'a') as f:
                 f.write("X/6" + "\n")
-            with open('failed_words.txt', 'a') as k:
+            with open('metrics/failed_words.txt', 'a') as k:
                 k.write(f"{game.solution}\n")
             print("Failed to solve in 6 rounds or fewer.")
             return 7
@@ -29,11 +29,11 @@ def try_to_win(game, guess, words_file, second_guess_list, second_guess=None):
             with open('result.txt', 'a') as f:
                 f.write("🟩🟩🟩🟩🟩" + "\n")
                 f.write(f"{rounds}/6" + "\n")
-            with open('solved_metrics.txt', 'a') as v:
+            with open('metrics/solved_metrics.txt', 'a') as v:
                 v.write(f"{rounds}:{len(words_file)}" + "\n")
             print(f"Solved in {rounds} rounds!")
             if rounds == 6:
-                with open('6_round_words.txt', 'a') as g:
+                with open('metrics/6_round_words.txt', 'a') as g:
                     g.write(f"{game.solution}\n")
             return rounds
         else:
@@ -44,7 +44,7 @@ def try_to_win(game, guess, words_file, second_guess_list, second_guess=None):
             rounds = rounds + 1
 
 def play_wordle(first_guess, solution, second_guess=None):
-    words_file = open("words.txt", "r").read().split('\n')
+    words_file = open("Assets/words.txt", "r").read().split('\n')
     words_list = copy.deepcopy(words_file)
     second_guess_list = copy.deepcopy(words_file)
     print(f"Let's Play Wordle! Solution: {solution} ||| Starting word: {first_guess}")
@@ -60,13 +60,13 @@ def play_wordle(first_guess, solution, second_guess=None):
 
 def play_once(first_guess, solution, second_guess):
     play_wordle(first_guess=first_guess, solution=solution, second_guess=second_guess)
-    art = open("art.txt", "r").read()
+    art = open("Assets/art.txt", "r").read()
     with open('result.txt', 'a') as f:
         f.write(f"\n\n{art}\n\n\n")
 
 def play_100_rounds(first_guess, second_guess):
     result = 0
-    answers_file = open("past_answers.txt", "r").read().split(' ')
+    answers_file = open("Assets/past_answers.txt", "r").read().split(' ')
     answers_list = copy.deepcopy(answers_file)
     #first_guess = random.choice(words_list)
     x = 1
@@ -78,22 +78,22 @@ def play_100_rounds(first_guess, second_guess):
             result += play_wordle(first_guess=first_guess, solution=solution, second_guess=second_guess)
             x = x + 1
         except Exception as e:
-            with open('efficiency_testing.txt', 'a') as e:
+            with open('metrics/efficiency_testing.txt', 'a') as e:
                 e.write(f"{first_guess}:{second_guess}. Score: {result/x}\n")
             continue
-    with open('efficiency_testing.txt', 'a') as e:
+    with open('metrics/efficiency_testing.txt', 'a') as e:
         e.write(f"{first_guess}:{second_guess}. Score: {result/x}\n")
 
 def play_all_rounds(first_guess, second_guess):
     result = 0
-    answers_file = open("past_answers.txt", "r").read().split(' ')
-    with open('6_round_words.txt', 'w') as f:
+    answers_file = open("Assets/past_answers.txt", "r").read().split(' ')
+    with open('metrics/6_round_words.txt', 'w') as f:
         f.write("")
-    with open('failed_words.txt', 'w') as f:
+    with open('metrics/failed_words.txt', 'w') as f:
             f.write("")
-    with open('guessed_words.txt', 'w') as f:
+    with open('metrics/guessed_words.txt', 'w') as f:
             f.write("")
-    with open('solved_metrics.txt', 'w') as f:
+    with open('metrics/solved_metrics.txt', 'w') as f:
             f.write("")
     answers_list = copy.deepcopy(answers_file)
     x = 1
@@ -106,20 +106,20 @@ def play_all_rounds(first_guess, second_guess):
         except Exception as e:
             print(e)
             continue
-    with open('efficiency_testing.txt', 'a') as e:
+    with open('metrics/efficiency_testing.txt', 'a') as e:
         e.write(f"REGRESSION RUN::: {first_guess}:{second_guess}. Score: {result/x}\n")
 
 def replay_all_6_round_words(first_guess, second_guess):
     result = 0
-    answers_file = open("6_round_words.txt", "r").read().split('\n')
-    with open('6_round_words.txt', 'w') as f:
+    answers_file = open("metrics/6_round_words.txt", "r").read().split('\n')
+    with open('metrics/6_round_words.txt', 'w') as f:
         f.write("")
-    with open('guessed_words.txt', 'w') as f:
+    with open('metrics/guessed_words.txt', 'w') as f:
             f.write("")
-    with open('solved_metrics.txt', 'w') as f:
+    with open('metrics/solved_metrics.txt', 'w') as f:
             f.write("")
     answers_list = copy.deepcopy(answers_file)
-    with open('6_round_words.txt', 'w') as y:
+    with open('metrics/6_round_words.txt', 'w') as y:
         y.write("")
     x = 1
     for solution in answers_list:
@@ -135,11 +135,11 @@ def replay_all_failed_words(first_guess, second_guess):
     result = 0
     answers_file = open("failed_words.txt", "r").read().split('\n')
     answers_list = copy.deepcopy(answers_file)
-    with open('failed_words.txt', 'w') as f:
+    with open('metrics/failed_words.txt', 'w') as f:
         f.write("")
-    with open('guessed_words.txt', 'w') as f:
+    with open('metrics/guessed_words.txt', 'w') as f:
             f.write("")
-    with open('solved_metrics.txt', 'w') as f:
+    with open('metrics/solved_metrics.txt', 'w') as f:
             f.write("")
     x = 1
     for solution in answers_list:

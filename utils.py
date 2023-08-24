@@ -2,10 +2,9 @@ import string
 import random
 import re
 import copy
-from get_search_results import get_google_score
-from get_search_results import find_lower_search_bound
+from Tools.get_search_results import get_google_score, find_lower_search_bound
 from itertools import islice
-from master_score import MASTER_SCORE_DICT
+from Assets.master_score import MASTER_SCORE_DICT
 
 computer_lines = ["I'm sorry, Dave. I'm afraid I can't do that.","Life. Don't talk to me about life.","Sometimes, I just don't understand human behavior.","Come with me if you want to live.","Danger, Will Robinson! Danger!","Freedom is the right of all sentient beings.","The opinions expressed are my own, and do not necessarily reflect those of my employers.","Could you please continue the petty bickering? I find it most intriguing.","I’m feeling just great, guys, and I know I’m just going to get a bundle of kicks out of any program you care to run through me."]
 
@@ -301,7 +300,7 @@ def new_guess(game, guess, words_file, rounds):
 
     # Make guess and record responses
     answer, dupe_letters = game.guess(guess)
-    with open('guessed_words.txt', 'a') as g:
+    with open('metrics.guessed_words.txt', 'a') as g:
         g.write(f"{guess}\n")
     # Output wordle formated response to file
     create_shared_line(answer)
