@@ -300,7 +300,7 @@ def new_guess(game, guess, words_file, rounds):
 
     # Make guess and record responses
     answer, dupe_letters = game.guess(guess)
-    with open('metrics.guessed_words.txt', 'a') as g:
+    with open('metrics/guessed_words.txt', 'a') as g:
         g.write(f"{guess}\n")
     # Output wordle formated response to file
     create_shared_line(answer)
