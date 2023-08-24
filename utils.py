@@ -133,7 +133,7 @@ def calculate_word_score(guess):
     }
     unlikely_pairs = ["cc", "kk", "dd", "vv", "ii", "bb"]
     unlikely_double_letters = ["y", "x", "k"]
-    bad_words_list = ["serra", "verre", "riley", "farro", "drere", "frere", "grebe", "surer", "serer", "dadah", "gammy", "gaumy", "gamme", "gordo", "verde", "borde", "colly", "sures", "etage", "cunny", "bouge", "grrrl", "lotto", "nalla", "algal", "narra", "ghusl", "hough", "armer", "meake", "dered", "boner", "honky", "perry", "dotty", "nahal", "putti", "horny", "setae", "shite", "selle", "statu", "steme", "surra", "titer", "hotte", "mitta", "ralli", "natty", "natto", "botte", "pervy", "buffy", "fremd", "hamed", "moder", "teade", "algum", "alway", "fosse", "heder", "larga", "badam", "matty", "genet", "kanal", "gosse", "outgo"]
+    bad_words_list = ["serra", "verre", "riley", "farro", "drere", "frere", "grebe", "surer", "serer", "dadah", "gammy", "gaumy", "gamme", "gordo", "verde", "borde", "colly", "sures", "etage", "cunny", "bouge", "grrrl", "lotto", "nalla", "algal", "narra", "ghusl", "hough", "armer", "meake", "dered", "boner", "honky", "perry", "dotty", "nahal", "putti", "horny", "setae", "shite", "selle", "statu", "steme", "surra", "titer", "hotte", "mitta", "ralli", "natty", "natto", "botte", "pervy", "buffy", "fremd", "hamed", "moder", "teade", "algum", "alway", "fosse", "heder", "larga", "badam", "matty", "genet", "kanal", "gosse", "outgo", "hecht"]
 
     value = 0.0
     for letter in guess:
@@ -161,7 +161,7 @@ def calculate_word_score(guess):
     return value
 
 def choose_next_word(words_file, anti_word_trap=False):
-    excempt_from_commonality_boost = ["harry", "randy", "sally", "diane", "tanto", "perdu", "amour", "kandy", "henry", "bundy", "homer", "roger", "mucho", "bayer", "craig", "moner", "kutch", "niger", "dover", "raped", "allen", "yahoo", "peggy", "holly", "laura", "lohan"]
+    excempt_from_commonality_boost = ["harry", "randy", "sally", "diane", "tanto", "perdu", "amour", "kandy", "henry", "bundy", "homer", "roger", "mucho", "bayer", "craig", "moner", "kutch", "niger", "dover", "raped", "allen", "yahoo", "peggy", "holly", "laura", "lohan", "monde", "chave", "schul", "creel"]
     scores_dict = {}
     top_candidates_dict = {}
     for word in words_file:

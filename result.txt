@@ -1,7 +1,4729 @@
-Sometimes, I just don't understand human behavior.
-Wordle 515
-⬛🟨🟨⬛🟨
-⬛⬛⬛⬛⬛
-⬛🟩⬛🟩🟩
-🟩🟩🟩🟩🟩
-4/6
+{
+    "id": "490ddd15-f6c1-42cd-8478-15a1b21e892c",
+    "loanIdNumber": "6130189413",
+    "additionalRequests": {},
+    "applications": [
+        {
+            "id": "439c3ac1-ad2f-4401-b509-b9b8c39afebf",
+            "legacyId": "_borrower1",
+            "additionalLoans": [
+                {
+                    "id": "da3bafe4-a9cb-4394-ac83-c4ff07156ee0",
+                    "borrowerType": "Borrower",
+                    "holderName": "City of San Diego",
+                    "lienPosition": "2",
+                    "monthlyPrincipalAndInterest": 0.0,
+                    "helocCreditLimitAmount": 95200.0,
+                    "sourceOfFunds": "Other",
+                    "altId": "a9710bc4-8771-4bb5-bb11-055e1ec903e5"
+                }
+            ],
+            "vods": [
+                {
+                    "id": "c71a5f54-15e1-4a54-b510-e93b7b2be754",
+                    "holderName": "IndyMac Bank",
+                    "includeInAusExport": true,
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "total": 34586.82,
+                    "items": [
+                        {
+                            "itemNumber": 1,
+                            "type": "CheckingAccount",
+                            "accountIdentifier": "PLEB12498373813190",
+                            "urla2020CashOrMarketValueAmount": 34586.82,
+                            "depositoryAccountName": "Sam Evans"
+                        },
+                        {
+                            "itemNumber": 2
+                        },
+                        {
+                            "itemNumber": 3
+                        },
+                        {
+                            "itemNumber": 4
+                        }
+                    ],
+                    "altId": "e1e49f5f-3b9d-48d9-8b65-3988eafa62e6"
+                },
+                {
+                    "id": "3eb575eb-0997-42d6-b234-1abdc7800110",
+                    "holderName": "First State Bank of Winchester",
+                    "includeInAusExport": true,
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "total": 9352.87,
+                    "items": [
+                        {
+                            "itemNumber": 1,
+                            "type": "SavingsAccount",
+                            "accountIdentifier": "VEER79477782842985",
+                            "urla2020CashOrMarketValueAmount": 9352.87,
+                            "depositoryAccountName": "Sam Evans"
+                        },
+                        {
+                            "itemNumber": 2
+                        },
+                        {
+                            "itemNumber": 3
+                        },
+                        {
+                            "itemNumber": 4
+                        }
+                    ],
+                    "altId": "7c7dcbe7-9fb8-4d59-bfac-6af1dd7ff728"
+                },
+                {
+                    "id": "b2c2b97d-9f11-41c2-9240-8997e7f0a4b7",
+                    "holderName": "Community First Bank Chicago",
+                    "includeInAusExport": true,
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "total": 5625.24,
+                    "items": [
+                        {
+                            "itemNumber": 1,
+                            "type": "CheckingAccount",
+                            "accountIdentifier": "FWRW28878115178184",
+                            "urla2020CashOrMarketValueAmount": 5625.24,
+                            "depositoryAccountName": "Sam Evans"
+                        },
+                        {
+                            "itemNumber": 2
+                        },
+                        {
+                            "itemNumber": 3
+                        },
+                        {
+                            "itemNumber": 4
+                        }
+                    ],
+                    "altId": "2c79678a-c4bc-4597-8eba-00e24cce2597"
+                }
+            ],
+            "assetsAvailableAmount": 59564.95,
+            "borrower": {
+                "id": "439c3ac1-ad2f-4401-b509-b9b8c39afebf",
+                "legacyId": "_borrower1",
+                "adjustedAnnualIncome": 138560.04,
+                "ageAtApplicationYearsCount": 46,
+                "annualIncome": 138560.04,
+                "applicantType": "Borrower",
+                "authorizedCreditReportIndicator": false,
+                "bankruptcyIndicator": false,
+                "bankruptcyIndicatorChapterSeven": false,
+                "bankruptcyIndicatorChapterEleven": false,
+                "bankruptcyIndicatorChapterTwelve": false,
+                "bankruptcyIndicatorChapterThirteen": false,
+                "baseIncome": 66560.04,
+                "baseMonthlyIncomeAmount": 5546.67,
+                "birthDate": "1977-01-01",
+                "borrowerType": "Individual",
+                "borrowerTypeInSummary": "Individual",
+                "ownershipEducationConfirmationIndicator": false,
+                "citizenshipResidencyType": "PermanentResidentAlien",
+                "topRatioPercent": 21.72,
+                "bottomRatioPercent": 21.72,
+                "totalGrossMonthlyIncomeAmount": 11546.67,
+                "currentEmploymentDoesNotApply": false,
+                "declarationsJIndicator": false,
+                "declarationsKIndicator": true,
+                "dependentCount": 2,
+                "dependentsAgesDescription": "13,9",
+                "emailAddressText": "test@test.com",
+                "employment": [
+                    {
+                        "id": "0982c63a-2092-448b-b5c4-41efcb165164",
+                        "addressCity": "Michaelstad",
+                        "addressPostalCode": "91977",
+                        "addressState": "CA",
+                        "addressStreetLine1": "939 Thompson Pass Apt. 480",
+                        "basePayAmount": 5546.67,
+                        "countryCode": "US",
+                        "currentEmploymentIndicator": true,
+                        "employerName": "Lewis-Shannon",
+                        "employmentStartDate": "2020-01-28",
+                        "jobTermMonths": 0,
+                        "militaryEntitlement": 0.0,
+                        "specialEmployerRelationshipIndicator": false,
+                        "monthlyIncomeAmount": 5546.67,
+                        "noLinkToDocTrackIndicator": true,
+                        "phoneNumber": "999-999-9999",
+                        "positionDescription": "Sub",
+                        "selfEmployedIndicator": false,
+                        "timeInLineOfWorkYears": 4,
+                        "timeOnJobTermMonths": 2,
+                        "timeOnJobTermYears": 3,
+                        "urla2020StreetAddress": "939 Thompson Pass Apt. 480",
+                        "militaryEmployer": false,
+                        "country": "US",
+                        "sourceOfIncomeData": "Encompass",
+                        "altId": "36f969e0-c5a4-415a-9c51-45e98878ad96"
+                    },
+                    {
+                        "id": "c91b79f3-7dc2-40b6-bc4c-030249d39400",
+                        "addressCity": "Meganside",
+                        "addressPostalCode": "91950",
+                        "addressState": "CA",
+                        "addressStreetLine1": "6313 English Bridge",
+                        "countryCode": "US",
+                        "currentEmploymentIndicator": false,
+                        "employerName": "Conner-Morrison",
+                        "employmentStartDate": "2016-04-01",
+                        "specialEmployerRelationshipIndicator": false,
+                        "endDate": "2020-01-28",
+                        "noLinkToDocTrackIndicator": true,
+                        "phoneNumber": "999-999-9999",
+                        "positionDescription": "Clothing/textile technologist",
+                        "selfEmployedIndicator": false,
+                        "timeOnJobTermMonths": 9,
+                        "timeOnJobTermYears": 3,
+                        "urla2020StreetAddress": "6313 English Bridge",
+                        "country": "US",
+                        "sourceOfIncomeData": "Encompass",
+                        "altId": "fe3bc98b-8810-49da-a98d-84828578a6fe"
+                    }
+                ],
+                "equifaxCreditScoreForDisclosure": false,
+                "experianCreditScoreForDisclosure": false,
+                "firstName": "Sam",
+                "firstNameWithMiddleName": "Sam",
+                "fullName": "Sam Evans",
+                "fullNameWithSuffix": "Sam Evans",
+                "fannieFirstName": "Sam",
+                "giftsAndGrantsIndicatorBor": false,
+                "hmdaAge": "0",
+                "hmdaRaceReportedField1": "5",
+                "hmdaRaceReportedFields": "White",
+                "hmdaWhiteIndicator": true,
+                "hmdaGendertypeDoNotWishIndicator": false,
+                "hmdaEthnicityDoNotWishIndicator": false,
+                "hmdaRaceDoNotWishProvideIndicator": false,
+                "homeownerPastThreeYearsIndicator": false,
+                "homePhoneNumber": "000-000-0000",
+                "intentToOccupyIndicator": true,
+                "isBorrower": true,
+                "isEthnicityBasedOnVisual": "Y",
+                "isRaceBasedOnVisual": "Y",
+                "isSexBasedOnVisual": "Y",
+                "jointAssetLiabilityReportingIndicator1": "Jointly",
+                "lastName": "Evans",
+                "lastNameWithSuffix": "Evans",
+                "liabilitiesDoesNotApply": false,
+                "loanForeclosureOrJudgementIndicator": false,
+                "mailingAddress": {
+                    "addressCity": "Lake Miranda",
+                    "addressPostalCode": "92154",
+                    "addressState": "CA",
+                    "addressStreetLine1": "951 Browning Squares Apt. 830 173",
+                    "addressUnitIdentifier": "173",
+                    "countryCode": "US",
+                    "urla2020StreetAddress": "951 Browning Squares Apt. 830",
+                    "country": "US"
+                },
+                "mailingAddressSameAsPresentIndicator": false,
+                "maritalStatusType": "Married",
+                "mobilePhone": "000-000-0000",
+                "otherAssetsDoesNotApply": false,
+                "outstandingJudgementsIndicator": false,
+                "ownershipConfirmationIndicator": true,
+                "ownershipFormatType": "Internet",
+                "partyToLawsuitIndicatorUrla": false,
+                "presentlyDelinquentIndicatorUrla": false,
+                "previousEmploymentDoesNotApply": false,
+                "priorPropertyDeedInLieuConveyedIndicator": false,
+                "priorPropertyForeclosureCompletedIndicator": false,
+                "priorPropertyShortSaleCompletedIndicator": false,
+                "propertyProposedCleanEnergyLienIndicator": false,
+                "residences": [
+                    {
+                        "id": "a0d741b0-64fd-44cf-be22-8b7a11cba1f8",
+                        "residencyType": "Current",
+                        "addressCity": "San Diego",
+                        "addressPostalCode": "92154",
+                        "addressState": "CA",
+                        "addressStreetLine1": "951 Browning Squares Apt. 830 173",
+                        "addressUnitIdentifier": "173",
+                        "countryCode": "US",
+                        "county": "San Diego",
+                        "durationTermMonths": 0,
+                        "durationTermYears": 4,
+                        "noLinkToDocTrackIndicator": true,
+                        "rent": 1957.0,
+                        "residencyBasisType": "Rent",
+                        "urla2020StreetAddress": "951 Browning Squares Apt. 830",
+                        "country": "US",
+                        "altId": "eae0f04c-9ded-4cce-8f0f-454f6238d87f"
+                    }
+                ],
+                "selfDeclaredMilitaryServiceIndicator": false,
+                "spousalVaBenefitsEligibilityIndicator": false,
+                "ssa89MortgageServiceIndicator": true,
+                "subtotalLiquidAssetsMinusGiftAmount": 59564.95,
+                "taxIdentificationIdentifier": "000-01-0000",
+                "totalAssets": 49564.93,
+                "totalLiabilitiesBalanceAmount": 15847.8,
+                "totalMonthlyIncomeAmount": 5546.67,
+                "totalMonthlyIncomeMinusNetRentalAmount": 5546.67,
+                "totalOtherAssets": 5000.0,
+                "transactionPurposeDescription": "Seeking Mortgage",
+                "transUnionCreditScoreForDisclosure": false,
+                "undisclosedBorrowedFundsIndicator": false,
+                "undisclosedCreditApplicationIndicator": false,
+                "undisclosedComakerOfNoteIndicator": false,
+                "undisclosedMortgageApplicationIndicator": false,
+                "urla2020CitizenshipResidencyType": "PermanentResidentAlien",
+                "vaNetTakeHomePayAmount": 5546.67,
+                "vaTotalNetIncomeAmount": 5546.67,
+                "workPhoneNumber": "000-000-0000"
+            },
+            "bottomRatioPercent": 21.72,
+            "coborrower": {
+                "id": "f6fa5e25-aec0-46c4-9b27-540d0e5f8e43",
+                "legacyId": "_coborrower1",
+                "ageAtApplicationYearsCount": 29,
+                "applicantType": "CoBorrower",
+                "authorizedCreditReportIndicator": false,
+                "bankruptcyIndicatorChapterSeven": false,
+                "bankruptcyIndicatorChapterEleven": false,
+                "bankruptcyIndicatorChapterTwelve": false,
+                "bankruptcyIndicatorChapterThirteen": false,
+                "baseIncome": 72000.0,
+                "baseMonthlyIncomeAmount": 6000.0,
+                "birthDate": "1993-04-15",
+                "borrowerType": "Individual",
+                "citizenshipResidencyType": "USCitizen",
+                "currentEmploymentDoesNotApply": false,
+                "declarationsJIndicator": true,
+                "declarationsKIndicator": false,
+                "dependentCount": 1,
+                "dependentsAgesDescription": "14",
+                "emailAddressText": "test1@test.com",
+                "employment": [
+                    {
+                        "id": "21311a43-573a-429b-afd5-d15f47e1c822",
+                        "addressCity": "Spring Valley",
+                        "addressPostalCode": "91977",
+                        "addressState": "CA",
+                        "addressStreetLine1": "939 Thompson Pass Apt. 480",
+                        "basePayAmount": 6000.0,
+                        "countryCode": "US",
+                        "currentEmploymentIndicator": true,
+                        "employerName": "Lewis-Shannon",
+                        "employmentStartDate": "2021-04-24",
+                        "monthlyIncomeAmount": 6000.0,
+                        "noLinkToDocTrackIndicator": true,
+                        "phoneNumber": "999-999-9999",
+                        "positionDescription": "Sub",
+                        "timeInLineOfWorkYears": 3,
+                        "timeOnJobTermMonths": 11,
+                        "timeOnJobTermYears": 1,
+                        "urla2020StreetAddress": "939 Thompson Pass Apt. 480",
+                        "country": "US",
+                        "sourceOfIncomeData": "Encompass",
+                        "altId": "604e8c36-a9ed-4acb-9e8d-d1e5810aad93"
+                    }
+                ],
+                "equifaxCreditScoreForDisclosure": false,
+                "experianCreditScoreForDisclosure": false,
+                "firstName": "Tim",
+                "firstNameWithMiddleName": "Tim",
+                "fullName": "Tim Evans",
+                "fullNameWithSuffix": "Tim Evans",
+                "fannieFirstName": "Tim",
+                "hmdaNoCoApplicantIndicator": false,
+                "hmdaNotProvidedIndicator": false,
+                "homePhoneNumber": "000-000-0000",
+                "isBorrower": false,
+                "lastName": "Evans",
+                "lastNameWithSuffix": "Evans",
+                "loanForeclosureOrJudgementIndicator": false,
+                "maritalStatusType": "Married",
+                "residences": [
+                    {
+                        "id": "70309173-dc02-428c-94f8-1125180e006c",
+                        "residencyType": "Current",
+                        "addressCity": "San Diego",
+                        "addressPostalCode": "92154",
+                        "addressState": "CA",
+                        "addressStreetLine1": "951 Browning Squares Apt. 830 173",
+                        "addressUnitIdentifier": "173",
+                        "countryCode": "US",
+                        "durationTermMonths": 0,
+                        "durationTermYears": 4,
+                        "noLinkToDocTrackIndicator": true,
+                        "residencyBasisType": "Rent",
+                        "urla2020StreetAddress": "951 Browning Squares Apt. 830",
+                        "country": "US",
+                        "altId": "fbcbfdf1-356a-4204-992f-f4a95f2515b6"
+                    }
+                ],
+                "ssa89MortgageServiceIndicator": true,
+                "totalMonthlyIncomeAmount": 6000.0,
+                "totalMonthlyIncomeMinusNetRentalAmount": 6000.0,
+                "transactionPurposeDescription": "Seeking Mortgage",
+                "transUnionCreditScoreForDisclosure": false,
+                "urla2020CitizenshipResidencyType": "USCitizen",
+                "vaNetTakeHomePayAmount": 6000.0,
+                "vaTotalNetIncomeAmount": 6000.0
+            },
+            "fhaVaDebtIncomeRatio": 21.72,
+            "fhaVaFamilySupportAmount": 9038.73,
+            "fhaVaTotalEstimatedMonthlyShelterExpenseAmount": 2507.94,
+            "fhaVaTotalNetEffectiveIncomeAmount": 11546.67,
+            "fhaVaTotalNetIncomeAmount": 11546.67,
+            "fhaVaTotalNetTakeHomePayAmount": 11546.67,
+            "freddieMacOccupantHousingRatio": 22.0,
+            "freddieMacOccupantDebtRatio": 22.0,
+            "giftsGrants": [
+                {
+                    "id": "c3a2a432-c2d1-437c-94e2-aa6a94ac8857",
+                    "assetType": "Grant",
+                    "source": "FederalAgency",
+                    "holderName": "Home Federal Savings Bank",
+                    "amount": 10000.0,
+                    "owner": "Borrower",
+                    "printAttachmentIndicator": true,
+                    "altId": "fd34a5dc-3f29-4ffe-9843-2dbede9eae5e"
+                },
+                {
+                    "id": "820f0eb6-6c9d-4df5-b6e6-9b8f8e356f4a",
+                    "assetType": "GiftOfCash",
+                    "source": "Relative",
+                    "holderName": "Broadway Bank",
+                    "amount": 0.01,
+                    "owner": "Borrower",
+                    "printAttachmentIndicator": true,
+                    "altId": "a6888fbc-384f-40af-ab9e-88629b1e6f53"
+                },
+                {
+                    "id": "3551f75f-9e34-40f0-a544-b36062c89b3b",
+                    "assetType": "GiftOfCash",
+                    "source": "Relative",
+                    "holderName": "Bank of Lincolnwood",
+                    "amount": 0.01,
+                    "owner": "Borrower",
+                    "printAttachmentIndicator": true,
+                    "altId": "8e691d55-ebb1-4046-b1b1-6efb3fe42d47"
+                }
+            ],
+            "grossBaseIncomeAmount": 11546.67,
+            "income": [
+                {
+                    "incomeType": "Base",
+                    "owner": "Borrower",
+                    "amount": 5546.67
+                },
+                {
+                    "incomeType": "Base",
+                    "owner": "CoBorrower",
+                    "amount": 6000.0
+                }
+            ],
+            "vols": [
+                {
+                    "id": "61f341fa-0516-4030-b491-c152315552c9",
+                    "altId": "390cbbb4-992a-4a18-aed4-2c4b7e7a0e23",
+                    "accountIdentifier": "BBKS81564878543104",
+                    "exclusionIndicator": false,
+                    "holderName": "First International Bank",
+                    "liabilityType": "Installment",
+                    "monthlyPaymentAmount": 350.0,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "remainingTermMonths": 47,
+                    "requestId": "390cbbb4-992a-4a18-aed4-2c4b7e7a0e23",
+                    "toBePaidOffAmount": 14099.33,
+                    "unpaidBalanceAmount": 14099.33,
+                    "ucdPayoffType": "Installment",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "d2b2794e-0a4d-4cf8-8405-75dba3babf7b",
+                    "altId": "0af90fe4-b835-42ad-a7a8-13fb0240ac9e",
+                    "accountIdentifier": "VWVN16128550109755",
+                    "exclusionIndicator": false,
+                    "holderName": "Bank of Wyoming",
+                    "liabilityType": "Revolving",
+                    "monthlyPaymentAmount": 17.42,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "requestId": "0af90fe4-b835-42ad-a7a8-13fb0240ac9e",
+                    "toBePaidOffAmount": 348.45,
+                    "unpaidBalanceAmount": 348.45,
+                    "ucdPayoffType": "Revolving",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "e369b01e-f63c-483d-aa94-103e3e9fcbaa",
+                    "altId": "5198c83f-1665-47c0-b67a-f07a9ee0e9bc",
+                    "accountIdentifier": "JSVI14676341112820",
+                    "exclusionIndicator": false,
+                    "holderName": "Gold Canyon Bank",
+                    "liabilityType": "Revolving",
+                    "monthlyPaymentAmount": 10.0,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "requestId": "5198c83f-1665-47c0-b67a-f07a9ee0e9bc",
+                    "toBePaidOffAmount": 41.02,
+                    "unpaidBalanceAmount": 41.02,
+                    "ucdPayoffType": "Revolving",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "c5afb4de-2489-445f-8609-76d32765bc7d",
+                    "altId": "33635d52-8b4b-4e71-8915-22a0b92721f0",
+                    "accountIdentifier": "JZTK47723724935552",
+                    "exclusionIndicator": false,
+                    "holderName": "Gold Canyon Bank",
+                    "liabilityType": "Revolving",
+                    "monthlyPaymentAmount": 67.95,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "requestId": "33635d52-8b4b-4e71-8915-22a0b92721f0",
+                    "toBePaidOffAmount": 1359.0,
+                    "unpaidBalanceAmount": 1359.0,
+                    "ucdPayoffType": "Revolving",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "72c78a3c-f172-4976-a188-43d4457027df",
+                    "altId": "db799f4e-ac9c-40c1-8d36-5709b84aaf34",
+                    "exclusionIndicator": false,
+                    "holderName": "Allendale County Bank",
+                    "liabilityType": "MortgageLoan",
+                    "monthlyPaymentAmount": 0.0,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": false,
+                    "remainingTermMonths": 360,
+                    "requestId": "db799f4e-ac9c-40c1-8d36-5709b84aaf34",
+                    "unpaidBalanceAmount": 0.0,
+                    "payoffIncludedIndicator": false,
+                    "creditLimit": 95200.0,
+                    "includeTaxesAndInsuranceIndicator": false
+                }
+            ],
+            "mcawGrossMonthlyIncomeAmount": 11546.67,
+            "mcawMortgagePaymentToIncome1Amount": 21.72,
+            "mcawTotalFixedPaymentForPurchaseAmount": 2507.94,
+            "mcawTotalFixedPaymentToIncome1Amount": 21.72,
+            "mcawTotalMortgagePaymentAmount": 2507.94,
+            "monthlyHousingExpenseAmount": 2507.94,
+            "netWorthAmount": 38717.13,
+            "otherAssets": [
+                {
+                    "id": "258bd938-2ba8-4775-9c43-8cfe4d5c9dd1",
+                    "borrowerType": "Borrower",
+                    "assetType": "EarnestMoney",
+                    "cashOrMarketValue": 5000.0,
+                    "altId": "4a7a6db0-48a5-4ae8-9aa1-4c49bed110ef"
+                }
+            ],
+            "propertyUsageType": "PrimaryResidence",
+            "proposedFirstMortgageAmount": 1850.35,
+            "proposedHazardInsuranceAmount": "74.26",
+            "proposedRealEstateTaxesAmount": "583.33",
+            "tax4506": {
+                "irs4506C": true,
+                "irs4506CPrintVersion": "Oct2022",
+                "sendAddress": "10277 Scripps Ranch Blvd",
+                "sendCity": "San Diego",
+                "sendFirst": "CoreLogic Credco",
+                "sendLast": "Participant #302617, Mailbox ID: CoreLogic",
+                "sendPhone": "877-877-6188",
+                "sendState": "CA",
+                "sendZip": "92131",
+                "taxFormNumber": "1040"
+            },
+            "tax4506Ts": [
+                {
+                    "id": "b58b85e5-13a4-4492-b504-e2a3178925d3",
+                    "altId": "f471ab81-f0a5-4891-a6bd-d5c2e443f58d",
+                    "address": "951 Browning Squares Apt. 830 173",
+                    "city": "San Diego",
+                    "currentFirst": "Sam ",
+                    "currentLast": "Evans ",
+                    "first": "Sam",
+                    "last": "Evans ",
+                    "person": "Borrower",
+                    "requestorPhoneNumber": "000-000-0000",
+                    "requestYear1": "2021-12-31",
+                    "returnTranscript": true,
+                    "sendAddress": "40 Pacifica #900",
+                    "sendCity": "Irvine",
+                    "sendFirst": "CoreLogic Credco",
+                    "sendLast": "302617",
+                    "sendPhone": "877-877-6188",
+                    "sendState": "CA",
+                    "sendZip": "92618",
+                    "spouseFirst": "Tim",
+                    "spouseLast": "Evans ",
+                    "ssn": "000-01-0000",
+                    "state": "CA",
+                    "taxFormNumber": "1040",
+                    "zip": "92154",
+                    "sorMailboxId": "CLGX4506T",
+                    "clientName": "PennyMac Loan Services, LLC",
+                    "clientPhone": "818-224-7442",
+                    "clientAddress": "3043 Townsgate Rd, Suite 200",
+                    "clientCity": "Westlake Village",
+                    "clientState": "CA",
+                    "clientZip": "91361"
+                }
+            ],
+            "topRatioPercent": 21.72,
+            "totalAssetsAmount": 54564.93,
+            "totalBaseIncomeAmount": 11546.67,
+            "totalDeposit": 49564.93,
+            "totalEmploymentAmount": 11546.67,
+            "totalFixedPaymentAmount": 2507.94,
+            "totalGrossMonthlyIncomeAmount": 11546.67,
+            "totalIncomeAmount": 11546.67,
+            "totalOtherAssetsAmount": 5000.0,
+            "totalPaymentsAmount": 2507.94,
+            "totalPrimaryHousingExpenseAmount": 2507.94,
+            "totalUrla2020AssetsAmount": 49564.93,
+            "vaSummarySpouseIncomeAmount": 6000.0,
+            "vaSummaryTotalMonthlyGrossIncomeAmount": 11546.67,
+            "totalAdditionalLoansAmount": 95200.0,
+            "borrowerPairId": "_borrower1"
+        },
+        {
+            "id": "439c3ac1-ad2f-4401-b509-b9b8c39afebf",
+            "legacyId": "_borrower1",
+            "additionalLoans": [
+                {
+                    "id": "da3bafe4-a9cb-4394-ac83-c4ff07156ee0",
+                    "borrowerType": "Borrower",
+                    "holderName": "City of San Diego",
+                    "lienPosition": "2",
+                    "monthlyPrincipalAndInterest": 0.0,
+                    "helocCreditLimitAmount": 95200.0,
+                    "sourceOfFunds": "Other",
+                    "altId": "a9710bc4-8771-4bb5-bb11-055e1ec903e5"
+                }
+            ],
+            "vods": [
+                {
+                    "id": "c71a5f54-15e1-4a54-b510-e93b7b2be754",
+                    "holderName": "IndyMac Bank",
+                    "includeInAusExport": true,
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "total": 34586.82,
+                    "items": [
+                        {
+                            "itemNumber": 1,
+                            "type": "CheckingAccount",
+                            "accountIdentifier": "PLEB12498373813190",
+                            "urla2020CashOrMarketValueAmount": 34586.82,
+                            "depositoryAccountName": "Sam Evans"
+                        },
+                        {
+                            "itemNumber": 2
+                        },
+                        {
+                            "itemNumber": 3
+                        },
+                        {
+                            "itemNumber": 4
+                        }
+                    ],
+                    "altId": "e1e49f5f-3b9d-48d9-8b65-3988eafa62e6"
+                },
+                {
+                    "id": "3eb575eb-0997-42d6-b234-1abdc7800110",
+                    "holderName": "First State Bank of Winchester",
+                    "includeInAusExport": true,
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "total": 9352.87,
+                    "items": [
+                        {
+                            "itemNumber": 1,
+                            "type": "SavingsAccount",
+                            "accountIdentifier": "VEER79477782842985",
+                            "urla2020CashOrMarketValueAmount": 9352.87,
+                            "depositoryAccountName": "Sam Evans"
+                        },
+                        {
+                            "itemNumber": 2
+                        },
+                        {
+                            "itemNumber": 3
+                        },
+                        {
+                            "itemNumber": 4
+                        }
+                    ],
+                    "altId": "7c7dcbe7-9fb8-4d59-bfac-6af1dd7ff728"
+                },
+                {
+                    "id": "b2c2b97d-9f11-41c2-9240-8997e7f0a4b7",
+                    "holderName": "Community First Bank Chicago",
+                    "includeInAusExport": true,
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "total": 5625.24,
+                    "items": [
+                        {
+                            "itemNumber": 1,
+                            "type": "CheckingAccount",
+                            "accountIdentifier": "FWRW28878115178184",
+                            "urla2020CashOrMarketValueAmount": 5625.24,
+                            "depositoryAccountName": "Sam Evans"
+                        },
+                        {
+                            "itemNumber": 2
+                        },
+                        {
+                            "itemNumber": 3
+                        },
+                        {
+                            "itemNumber": 4
+                        }
+                    ],
+                    "altId": "2c79678a-c4bc-4597-8eba-00e24cce2597"
+                }
+            ],
+            "assetsAvailableAmount": 59564.95,
+            "borrower": {
+                "id": "f6fa5e25-aec0-46c4-9b27-540d0e5f8e43",
+                "legacyId": "_borrower1",
+                "adjustedAnnualIncome": 138560.04,
+                "ageAtApplicationYearsCount": 46,
+                "annualIncome": 138560.04,
+                "applicantType": "Borrower",
+                "authorizedCreditReportIndicator": false,
+                "bankruptcyIndicator": false,
+                "bankruptcyIndicatorChapterSeven": false,
+                "bankruptcyIndicatorChapterEleven": false,
+                "bankruptcyIndicatorChapterTwelve": false,
+                "bankruptcyIndicatorChapterThirteen": false,
+                "baseIncome": 66560.04,
+                "baseMonthlyIncomeAmount": 5546.67,
+                "birthDate": "1977-01-01",
+                "borrowerType": "Individual",
+                "borrowerTypeInSummary": "Individual",
+                "ownershipEducationConfirmationIndicator": false,
+                "citizenshipResidencyType": "PermanentResidentAlien",
+                "topRatioPercent": 21.72,
+                "bottomRatioPercent": 21.72,
+                "totalGrossMonthlyIncomeAmount": 11546.67,
+                "currentEmploymentDoesNotApply": false,
+                "declarationsJIndicator": false,
+                "declarationsKIndicator": true,
+                "dependentCount": 2,
+                "dependentsAgesDescription": "13,9",
+                "emailAddressText": "test@test.com",
+                "employment": [
+                    {
+                        "id": "0982c63a-2092-448b-b5c4-41efcb165164",
+                        "addressCity": "Michaelstad",
+                        "addressPostalCode": "91977",
+                        "addressState": "CA",
+                        "addressStreetLine1": "939 Thompson Pass Apt. 480",
+                        "basePayAmount": 5546.67,
+                        "countryCode": "US",
+                        "currentEmploymentIndicator": true,
+                        "employerName": "Lewis-Shannon",
+                        "employmentStartDate": "2020-01-28",
+                        "jobTermMonths": 0,
+                        "militaryEntitlement": 0.0,
+                        "specialEmployerRelationshipIndicator": false,
+                        "monthlyIncomeAmount": 5546.67,
+                        "noLinkToDocTrackIndicator": true,
+                        "phoneNumber": "999-999-9999",
+                        "positionDescription": "Sub",
+                        "selfEmployedIndicator": false,
+                        "timeInLineOfWorkYears": 4,
+                        "timeOnJobTermMonths": 2,
+                        "timeOnJobTermYears": 3,
+                        "urla2020StreetAddress": "939 Thompson Pass Apt. 480",
+                        "militaryEmployer": false,
+                        "country": "US",
+                        "sourceOfIncomeData": "Encompass",
+                        "altId": "36f969e0-c5a4-415a-9c51-45e98878ad96"
+                    },
+                    {
+                        "id": "c91b79f3-7dc2-40b6-bc4c-030249d39400",
+                        "addressCity": "Meganside",
+                        "addressPostalCode": "91950",
+                        "addressState": "CA",
+                        "addressStreetLine1": "6313 English Bridge",
+                        "countryCode": "US",
+                        "currentEmploymentIndicator": false,
+                        "employerName": "Conner-Morrison",
+                        "employmentStartDate": "2016-04-01",
+                        "specialEmployerRelationshipIndicator": false,
+                        "endDate": "2020-01-28",
+                        "noLinkToDocTrackIndicator": true,
+                        "phoneNumber": "999-999-9999",
+                        "positionDescription": "Clothing/textile technologist",
+                        "selfEmployedIndicator": false,
+                        "timeOnJobTermMonths": 9,
+                        "timeOnJobTermYears": 3,
+                        "urla2020StreetAddress": "6313 English Bridge",
+                        "country": "US",
+                        "sourceOfIncomeData": "Encompass",
+                        "altId": "fe3bc98b-8810-49da-a98d-84828578a6fe"
+                    }
+                ],
+                "equifaxCreditScoreForDisclosure": false,
+                "experianCreditScoreForDisclosure": false,
+                "firstName": "Sam",
+                "firstNameWithMiddleName": "Sam",
+                "fullName": "Sam Evans",
+                "fullNameWithSuffix": "Sam Evans",
+                "fannieFirstName": "Sam",
+                "giftsAndGrantsIndicatorBor": false,
+                "hmdaAge": "0",
+                "hmdaRaceReportedField1": "5",
+                "hmdaRaceReportedFields": "White",
+                "hmdaWhiteIndicator": true,
+                "hmdaGendertypeDoNotWishIndicator": false,
+                "hmdaEthnicityDoNotWishIndicator": false,
+                "hmdaRaceDoNotWishProvideIndicator": false,
+                "homeownerPastThreeYearsIndicator": false,
+                "homePhoneNumber": "000-000-0000",
+                "intentToOccupyIndicator": true,
+                "isBorrower": true,
+                "isEthnicityBasedOnVisual": "Y",
+                "isRaceBasedOnVisual": "Y",
+                "isSexBasedOnVisual": "Y",
+                "jointAssetLiabilityReportingIndicator1": "Jointly",
+                "lastName": "Evans",
+                "lastNameWithSuffix": "Evans",
+                "liabilitiesDoesNotApply": false,
+                "loanForeclosureOrJudgementIndicator": false,
+                "mailingAddress": {
+                    "addressCity": "Lake Miranda",
+                    "addressPostalCode": "92154",
+                    "addressState": "CA",
+                    "addressStreetLine1": "951 Browning Squares Apt. 830 173",
+                    "addressUnitIdentifier": "173",
+                    "countryCode": "US",
+                    "urla2020StreetAddress": "951 Browning Squares Apt. 830",
+                    "country": "US"
+                },
+                "mailingAddressSameAsPresentIndicator": false,
+                "maritalStatusType": "Married",
+                "mobilePhone": "000-000-0000",
+                "otherAssetsDoesNotApply": false,
+                "outstandingJudgementsIndicator": false,
+                "ownershipConfirmationIndicator": true,
+                "ownershipFormatType": "Internet",
+                "partyToLawsuitIndicatorUrla": false,
+                "presentlyDelinquentIndicatorUrla": false,
+                "previousEmploymentDoesNotApply": false,
+                "priorPropertyDeedInLieuConveyedIndicator": false,
+                "priorPropertyForeclosureCompletedIndicator": false,
+                "priorPropertyShortSaleCompletedIndicator": false,
+                "propertyProposedCleanEnergyLienIndicator": false,
+                "residences": [
+                    {
+                        "id": "a0d741b0-64fd-44cf-be22-8b7a11cba1f8",
+                        "residencyType": "Current",
+                        "addressCity": "San Diego",
+                        "addressPostalCode": "92154",
+                        "addressState": "CA",
+                        "addressStreetLine1": "951 Browning Squares Apt. 830 173",
+                        "addressUnitIdentifier": "173",
+                        "countryCode": "US",
+                        "county": "San Diego",
+                        "durationTermMonths": 0,
+                        "durationTermYears": 4,
+                        "noLinkToDocTrackIndicator": true,
+                        "rent": 1957.0,
+                        "residencyBasisType": "Rent",
+                        "urla2020StreetAddress": "951 Browning Squares Apt. 830",
+                        "country": "US",
+                        "altId": "eae0f04c-9ded-4cce-8f0f-454f6238d87f"
+                    }
+                ],
+                "selfDeclaredMilitaryServiceIndicator": false,
+                "spousalVaBenefitsEligibilityIndicator": false,
+                "ssa89MortgageServiceIndicator": true,
+                "subtotalLiquidAssetsMinusGiftAmount": 59564.95,
+                "taxIdentificationIdentifier": "000-01-0000",
+                "totalAssets": 49564.93,
+                "totalLiabilitiesBalanceAmount": 15847.8,
+                "totalMonthlyIncomeAmount": 5546.67,
+                "totalMonthlyIncomeMinusNetRentalAmount": 5546.67,
+                "totalOtherAssets": 5000.0,
+                "transactionPurposeDescription": "Seeking Mortgage",
+                "transUnionCreditScoreForDisclosure": false,
+                "undisclosedBorrowedFundsIndicator": false,
+                "undisclosedCreditApplicationIndicator": false,
+                "undisclosedComakerOfNoteIndicator": false,
+                "undisclosedMortgageApplicationIndicator": false,
+                "urla2020CitizenshipResidencyType": "PermanentResidentAlien",
+                "vaNetTakeHomePayAmount": 5546.67,
+                "vaTotalNetIncomeAmount": 5546.67,
+                "workPhoneNumber": "000-000-0000"
+            },
+            "bottomRatioPercent": 21.72,
+            "coborrower": {
+                "id": "f7fa5e25-aec0-46c4-9b27-540d0e5f8e43",
+                "legacyId": "_coborrower1",
+                "ageAtApplicationYearsCount": 29,
+                "applicantType": "CoBorrower",
+                "authorizedCreditReportIndicator": false,
+                "bankruptcyIndicatorChapterSeven": false,
+                "bankruptcyIndicatorChapterEleven": false,
+                "bankruptcyIndicatorChapterTwelve": false,
+                "bankruptcyIndicatorChapterThirteen": false,
+                "baseIncome": 72000.0,
+                "baseMonthlyIncomeAmount": 6000.0,
+                "birthDate": "1993-04-15",
+                "borrowerType": "Individual",
+                "citizenshipResidencyType": "USCitizen",
+                "currentEmploymentDoesNotApply": false,
+                "declarationsJIndicator": true,
+                "declarationsKIndicator": false,
+                "dependentCount": 1,
+                "dependentsAgesDescription": "14",
+                "emailAddressText": "test1@test.com",
+                "employment": [
+                    {
+                        "id": "21311a43-573a-429b-afd5-d15f47e1c822",
+                        "addressCity": "Spring Valley",
+                        "addressPostalCode": "91977",
+                        "addressState": "CA",
+                        "addressStreetLine1": "939 Thompson Pass Apt. 480",
+                        "basePayAmount": 6000.0,
+                        "countryCode": "US",
+                        "currentEmploymentIndicator": true,
+                        "employerName": "Lewis-Shannon",
+                        "employmentStartDate": "2021-04-24",
+                        "monthlyIncomeAmount": 6000.0,
+                        "noLinkToDocTrackIndicator": true,
+                        "phoneNumber": "999-999-9999",
+                        "positionDescription": "Sub",
+                        "timeInLineOfWorkYears": 3,
+                        "timeOnJobTermMonths": 11,
+                        "timeOnJobTermYears": 1,
+                        "urla2020StreetAddress": "939 Thompson Pass Apt. 480",
+                        "country": "US",
+                        "sourceOfIncomeData": "Encompass",
+                        "altId": "604e8c36-a9ed-4acb-9e8d-d1e5810aad93"
+                    }
+                ],
+                "equifaxCreditScoreForDisclosure": false,
+                "experianCreditScoreForDisclosure": false,
+                "firstName": "Tim",
+                "firstNameWithMiddleName": "Tim",
+                "fullName": "Tim Evans",
+                "fullNameWithSuffix": "Tim Evans",
+                "fannieFirstName": "Tim",
+                "hmdaNoCoApplicantIndicator": false,
+                "hmdaNotProvidedIndicator": false,
+                "homePhoneNumber": "000-000-0000",
+                "isBorrower": false,
+                "lastName": "Evans",
+                "lastNameWithSuffix": "Evans",
+                "loanForeclosureOrJudgementIndicator": false,
+                "maritalStatusType": "Married",
+                "residences": [
+                    {
+                        "id": "70309173-dc02-428c-94f8-1125180e006c",
+                        "residencyType": "Current",
+                        "addressCity": "San Diego",
+                        "addressPostalCode": "92154",
+                        "addressState": "CA",
+                        "addressStreetLine1": "951 Browning Squares Apt. 830 173",
+                        "addressUnitIdentifier": "173",
+                        "countryCode": "US",
+                        "durationTermMonths": 0,
+                        "durationTermYears": 4,
+                        "noLinkToDocTrackIndicator": true,
+                        "residencyBasisType": "Rent",
+                        "urla2020StreetAddress": "951 Browning Squares Apt. 830",
+                        "country": "US",
+                        "altId": "fbcbfdf1-356a-4204-992f-f4a95f2515b6"
+                    }
+                ],
+                "ssa89MortgageServiceIndicator": true,
+                "totalMonthlyIncomeAmount": 6000.0,
+                "totalMonthlyIncomeMinusNetRentalAmount": 6000.0,
+                "transactionPurposeDescription": "Seeking Mortgage",
+                "transUnionCreditScoreForDisclosure": false,
+                "urla2020CitizenshipResidencyType": "USCitizen",
+                "vaNetTakeHomePayAmount": 6000.0,
+                "vaTotalNetIncomeAmount": 6000.0
+            },
+            "fhaVaDebtIncomeRatio": 21.72,
+            "fhaVaFamilySupportAmount": 9038.73,
+            "fhaVaTotalEstimatedMonthlyShelterExpenseAmount": 2507.94,
+            "fhaVaTotalNetEffectiveIncomeAmount": 11546.67,
+            "fhaVaTotalNetIncomeAmount": 11546.67,
+            "fhaVaTotalNetTakeHomePayAmount": 11546.67,
+            "freddieMacOccupantHousingRatio": 22.0,
+            "freddieMacOccupantDebtRatio": 22.0,
+            "giftsGrants": [
+                {
+                    "id": "c3a2a432-c2d1-437c-94e2-aa6a94ac8857",
+                    "assetType": "Grant",
+                    "source": "FederalAgency",
+                    "holderName": "Home Federal Savings Bank",
+                    "amount": 10000.0,
+                    "owner": "Borrower",
+                    "printAttachmentIndicator": true,
+                    "altId": "fd34a5dc-3f29-4ffe-9843-2dbede9eae5e"
+                },
+                {
+                    "id": "820f0eb6-6c9d-4df5-b6e6-9b8f8e356f4a",
+                    "assetType": "GiftOfCash",
+                    "source": "Relative",
+                    "holderName": "Broadway Bank",
+                    "amount": 0.01,
+                    "owner": "Borrower",
+                    "printAttachmentIndicator": true,
+                    "altId": "a6888fbc-384f-40af-ab9e-88629b1e6f53"
+                },
+                {
+                    "id": "3551f75f-9e34-40f0-a544-b36062c89b3b",
+                    "assetType": "GiftOfCash",
+                    "source": "Relative",
+                    "holderName": "Bank of Lincolnwood",
+                    "amount": 0.01,
+                    "owner": "Borrower",
+                    "printAttachmentIndicator": true,
+                    "altId": "8e691d55-ebb1-4046-b1b1-6efb3fe42d47"
+                }
+            ],
+            "grossBaseIncomeAmount": 11546.67,
+            "income": [
+                {
+                    "incomeType": "Base",
+                    "owner": "Borrower",
+                    "amount": 5546.67
+                },
+                {
+                    "incomeType": "Base",
+                    "owner": "CoBorrower",
+                    "amount": 6000.0
+                }
+            ],
+            "vols": [
+                {
+                    "id": "61f341fa-0516-4030-b491-c152315552c9",
+                    "altId": "390cbbb4-992a-4a18-aed4-2c4b7e7a0e23",
+                    "accountIdentifier": "BBKS81564878543104",
+                    "exclusionIndicator": false,
+                    "holderName": "First International Bank",
+                    "liabilityType": "Installment",
+                    "monthlyPaymentAmount": 350.0,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "remainingTermMonths": 47,
+                    "requestId": "390cbbb4-992a-4a18-aed4-2c4b7e7a0e23",
+                    "toBePaidOffAmount": 14099.33,
+                    "unpaidBalanceAmount": 14099.33,
+                    "ucdPayoffType": "Installment",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "d2b2794e-0a4d-4cf8-8405-75dba3babf7b",
+                    "altId": "0af90fe4-b835-42ad-a7a8-13fb0240ac9e",
+                    "accountIdentifier": "VWVN16128550109755",
+                    "exclusionIndicator": false,
+                    "holderName": "Bank of Wyoming",
+                    "liabilityType": "Revolving",
+                    "monthlyPaymentAmount": 17.42,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "requestId": "0af90fe4-b835-42ad-a7a8-13fb0240ac9e",
+                    "toBePaidOffAmount": 348.45,
+                    "unpaidBalanceAmount": 348.45,
+                    "ucdPayoffType": "Revolving",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "e369b01e-f63c-483d-aa94-103e3e9fcbaa",
+                    "altId": "5198c83f-1665-47c0-b67a-f07a9ee0e9bc",
+                    "accountIdentifier": "JSVI14676341112820",
+                    "exclusionIndicator": false,
+                    "holderName": "Gold Canyon Bank",
+                    "liabilityType": "Revolving",
+                    "monthlyPaymentAmount": 10.0,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "requestId": "5198c83f-1665-47c0-b67a-f07a9ee0e9bc",
+                    "toBePaidOffAmount": 41.02,
+                    "unpaidBalanceAmount": 41.02,
+                    "ucdPayoffType": "Revolving",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "c5afb4de-2489-445f-8609-76d32765bc7d",
+                    "altId": "33635d52-8b4b-4e71-8915-22a0b92721f0",
+                    "accountIdentifier": "JZTK47723724935552",
+                    "exclusionIndicator": false,
+                    "holderName": "Gold Canyon Bank",
+                    "liabilityType": "Revolving",
+                    "monthlyPaymentAmount": 67.95,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": true,
+                    "requestId": "33635d52-8b4b-4e71-8915-22a0b92721f0",
+                    "toBePaidOffAmount": 1359.0,
+                    "unpaidBalanceAmount": 1359.0,
+                    "ucdPayoffType": "Revolving",
+                    "payoffIncludedIndicator": true,
+                    "includeTaxesAndInsuranceIndicator": false
+                },
+                {
+                    "id": "72c78a3c-f172-4976-a188-43d4457027df",
+                    "altId": "db799f4e-ac9c-40c1-8d36-5709b84aaf34",
+                    "exclusionIndicator": false,
+                    "holderName": "Allendale County Bank",
+                    "liabilityType": "MortgageLoan",
+                    "monthlyPaymentAmount": 0.0,
+                    "nameInAccount": "Anthony Evans",
+                    "noLinkToDocTrackIndicator": true,
+                    "owner": "Borrower",
+                    "payoffStatusIndicator": false,
+                    "remainingTermMonths": 360,
+                    "requestId": "db799f4e-ac9c-40c1-8d36-5709b84aaf34",
+                    "unpaidBalanceAmount": 0.0,
+                    "payoffIncludedIndicator": false,
+                    "creditLimit": 95200.0,
+                    "includeTaxesAndInsuranceIndicator": false
+                }
+            ],
+            "mcawGrossMonthlyIncomeAmount": 11546.67,
+            "mcawMortgagePaymentToIncome1Amount": 21.72,
+            "mcawTotalFixedPaymentForPurchaseAmount": 2507.94,
+            "mcawTotalFixedPaymentToIncome1Amount": 21.72,
+            "mcawTotalMortgagePaymentAmount": 2507.94,
+            "monthlyHousingExpenseAmount": 2507.94,
+            "netWorthAmount": 38717.13,
+            "otherAssets": [
+                {
+                    "id": "258bd938-2ba8-4775-9c43-8cfe4d5c9dd1",
+                    "borrowerType": "Borrower",
+                    "assetType": "EarnestMoney",
+                    "cashOrMarketValue": 5000.0,
+                    "altId": "4a7a6db0-48a5-4ae8-9aa1-4c49bed110ef"
+                }
+            ],
+            "propertyUsageType": "PrimaryResidence",
+            "proposedFirstMortgageAmount": 1850.35,
+            "proposedHazardInsuranceAmount": "74.26",
+            "proposedRealEstateTaxesAmount": "583.33",
+            "tax4506": {
+                "irs4506C": true,
+                "irs4506CPrintVersion": "Oct2022",
+                "sendAddress": "10277 Scripps Ranch Blvd",
+                "sendCity": "San Diego",
+                "sendFirst": "CoreLogic Credco",
+                "sendLast": "Participant #302617, Mailbox ID: CoreLogic",
+                "sendPhone": "877-877-6188",
+                "sendState": "CA",
+                "sendZip": "92131",
+                "taxFormNumber": "1040"
+            },
+            "tax4506Ts": [
+                {
+                    "id": "b58b85e5-13a4-4492-b504-e2a3178925d3",
+                    "altId": "f471ab81-f0a5-4891-a6bd-d5c2e443f58d",
+                    "address": "951 Browning Squares Apt. 830 173",
+                    "city": "San Diego",
+                    "currentFirst": "Sam ",
+                    "currentLast": "Evans ",
+                    "first": "Sam",
+                    "last": "Evans ",
+                    "person": "Borrower",
+                    "requestorPhoneNumber": "000-000-0000",
+                    "requestYear1": "2021-12-31",
+                    "returnTranscript": true,
+                    "sendAddress": "40 Pacifica #900",
+                    "sendCity": "Irvine",
+                    "sendFirst": "CoreLogic Credco",
+                    "sendLast": "302617",
+                    "sendPhone": "877-877-6188",
+                    "sendState": "CA",
+                    "sendZip": "92618",
+                    "spouseFirst": "Tim",
+                    "spouseLast": "Evans ",
+                    "ssn": "000-01-0000",
+                    "state": "CA",
+                    "taxFormNumber": "1040",
+                    "zip": "92154",
+                    "sorMailboxId": "CLGX4506T",
+                    "clientName": "PennyMac Loan Services, LLC",
+                    "clientPhone": "818-224-7442",
+                    "clientAddress": "3043 Townsgate Rd, Suite 200",
+                    "clientCity": "Westlake Village",
+                    "clientState": "CA",
+                    "clientZip": "91361"
+                }
+            ],
+            "topRatioPercent": 21.72,
+            "totalAssetsAmount": 54564.93,
+            "totalBaseIncomeAmount": 11546.67,
+            "totalDeposit": 49564.93,
+            "totalEmploymentAmount": 11546.67,
+            "totalFixedPaymentAmount": 2507.94,
+            "totalGrossMonthlyIncomeAmount": 11546.67,
+            "totalIncomeAmount": 11546.67,
+            "totalOtherAssetsAmount": 5000.0,
+            "totalPaymentsAmount": 2507.94,
+            "totalPrimaryHousingExpenseAmount": 2507.94,
+            "totalUrla2020AssetsAmount": 49564.93,
+            "vaSummarySpouseIncomeAmount": 6000.0,
+            "vaSummaryTotalMonthlyGrossIncomeAmount": 11546.67,
+            "totalAdditionalLoansAmount": 95200.0,
+            "borrowerPairId": "_borrower1"
+        },
+    ],
+    "applicationTakenMethodType": "Telephone",
+    "atrqmCommon": {
+        "withOriginalCreditor": false,
+        "atrLoanType": "General ATR",
+        "isEligibleForSafeHarbor": "N/A",
+        "generalAtrStatusOverall": "Meets Standard",
+        "generalAtrStatusDti": "Meets Standard",
+        "generalAtrStatusResidualIncome": "Meets Standard",
+        "generalAtrStatusCoveredLoan": "Meets Standard",
+        "generalAtrStatusSimultaneousLoan": "Meets Standard",
+        "generalAtrStatusMtgRelatedObligations": "Meets Standard",
+        "generalAtrStatusEmployment": "Meets Standard",
+        "generalAtrStatusIncome": "Meets Standard",
+        "generalAtrStatusAssets": "Meets Standard",
+        "generalAtrStatusDebtObligations": "Meets Standard",
+        "generalAtrStatusAlimony": "Meets Standard",
+        "generalAtrStatusChildSupport": "Meets Standard",
+        "generalAtrStatusCreditHistory": "Meets Standard",
+        "standardQmStatusOverall": "Not Meet",
+        "standardQmStatusLoanTerm": "Meets Standard",
+        "standardQmStatusInterestOnly": "Meets Standard",
+        "standardQmStatusNegativeAmortization": "Meets Standard",
+        "standardQmStatusBalloonPayment": "Meets Standard",
+        "standardQmStatusPrepaymentPenalty": "Meets Standard",
+        "standardQmStatusPointsFeesLimit": "Meets Standard",
+        "standardQmStatusDti": "Meets Standard",
+        "standardQmStatusResidualIncome": "Meets Standard",
+        "standardQmStatusCoveredLoan": "Meets Standard",
+        "standardQmStatusSimultaneousLoan": "Meets Standard",
+        "standardQmStatusMtgRelatedObligations": "Meets Standard",
+        "standardQmStatusEmployment": "Meets Standard",
+        "standardQmStatusIncome": "Meets Standard",
+        "standardQmStatusAssets": "Meets Standard",
+        "standardQmStatusDebtObligations": "Meets Standard",
+        "standardQmStatusAlimony": "Meets Standard",
+        "standardQmStatusChildSupport": "Meets Standard",
+        "standardQmStatusCreditHistory": "Meets Standard",
+        "gseagencyQmStatusOverall": "Not Meet",
+        "gseagencyQmStatusLoanTerm": "Meets Standard",
+        "gseagencyQmStatusInterestOnly": "Meets Standard",
+        "gseagencyQmStatusNegativeAmortization": "Meets Standard",
+        "gseagencyQmStatusBalloonPayment": "Meets Standard",
+        "gseagencyQmStatusPrepaymentPenalty": "Meets Standard",
+        "gseagencyQmStatusPointsFeesLimit": "Meets Standard",
+        "gseagencyQmStatusDti": "Review Needed",
+        "gseagencyQmStatusResidualIncome": "Meets Standard",
+        "gseagencyQmStatusCoveredLoan": "Meets Standard",
+        "gseagencyQmStatusSimultaneousLoan": "Meets Standard",
+        "gseagencyQmStatusMtgRelatedObligations": "Meets Standard",
+        "gseagencyQmStatusEmployment": "Meets Standard",
+        "gseagencyQmStatusIncome": "Meets Standard",
+        "gseagencyQmStatusAssets": "Meets Standard",
+        "gseagencyQmStatusDebtObligations": "Meets Standard",
+        "gseagencyQmStatusAlimony": "Meets Standard",
+        "gseagencyQmStatusChildSupport": "Meets Standard",
+        "gseagencyQmStatusCreditHistory": "Meets Standard",
+        "gseagencyQmStatusSafeHarborEligibility": "Not Meet",
+        "initialMaxTotalPayment": 2507.94,
+        "max5YrsTotalPayment": 2507.94,
+        "max5YrsHousingRatio": 21.72,
+        "max5YrsTotalDebtRatio": 21.72,
+        "regZTotalLoanAmount": 432000.0,
+        "currentQmFeeThresholdAmt": 12960.0,
+        "currentQmFeeThresholdPercent": 3.0,
+        "thresholdExceedsQm": "does not",
+        "max5YrsPrincipleAndInterest": 1850.35,
+        "isEvaluatedMonthlyCoveredLoanPayment": true,
+        "isEvaluatedMonthlySimultaneousLoanPayment": true,
+        "isEvaluatedMonthlyMortgageRelatedObligations": true,
+        "isEvaluatedDebtObligations": true,
+        "isEvaluatedChildSupportObligations": true,
+        "isEvaluatedAlimonyObligations": true,
+        "isEvaluatedCurrentEmploymentStatus": true,
+        "isEvaluatedCurrentExpectedIncome": true,
+        "isEvaluatedCurrentExpectedAssets": true,
+        "isEvaluatedCreditHistory": true,
+        "isEvaluatedDebtToIncomeRatio": true,
+        "isEvaluatedResidualIncome": true,
+        "aporMaxBonaFideDiscountPoint": 0.0,
+        "rateReductionBasisPoints": 0.0,
+        "rateReductionDiscountPoints": 0.0,
+        "rateReductionMaxBonaFideDiscountPoint": 0.0,
+        "startingAdjustedRateMaxBonaFideDiscountPoint": 0.0,
+        "bonaFideDiscountPoint": 0.0,
+        "bonaFideDiscountPointAmount": 0.0,
+        "initialRateMonthlyPayment": 1850.35,
+        "initialRateHousingRatio": 21.72,
+        "initialRateTotalDebtRatio": 21.72,
+        "gseagencyQmStatusQmAvailable": "Not Meet",
+        "qmAprPercentage": 3.124,
+        "usePriceBasedLimitTest": true,
+        "standardQmStatusPriceLimit": "Not Meet"
+    },
+    "baseLoanAmount": 432000.0,
+    "belowMarketSubordinateFinancingIndicator": false,
+    "bltv": 78,
+    "borrowerCount": "2",
+    "borrowerPaidClosingCostsAmount": 998.19,
+    "borrowerPaidFhavaClosingCostsAmount": 998.19,
+    "borrowerPairCount": 1,
+    "borrowerRequestedLoanAmount": 432000.0,
+    "buydownIndicator": false,
+    "cashFromToBorrowerAmount": 131013.34,
+    "channel": "Banked - Wholesale",
+    "closingBillingDate": "2023-04-04",
+    "closingCost": {
+        "disclosedSalesPrice": 560000.0,
+        "closingDisclosure5": {
+            "totalPayments": 667122.22,
+            "cdLiabilityAfterForeclosure": "state law may protect liability for the unpaid balance",
+            "lenderName": "PennyMac Loan Services, LLC",
+            "lenderAddress": "Apple Mortgage LLC",
+            "lenderCity": "Los Angeles",
+            "lenderState": "CA",
+            "lenderZip": "90001",
+            "lenderNmlsId": "35953",
+            "lenderContact": "Nichol Davis-Brown",
+            "lenderEmail": "BDLClosingDisclosure@pnmac.com",
+            "lenderPhone": "833-769-3710",
+            "mortgageBrokerName": "Apple Mortgage LLC",
+            "mortgageBrokerAddress": "Apple Mortgage LLC",
+            "mortgageBrokerCity": "Los Angeles",
+            "mortgageBrokerState": "CA",
+            "mortgageBrokerZip": "90001",
+            "mortgageBrokerNmlsId": "0",
+            "mortgageBrokerContact": "Joe Mortgage",
+            "mortgageBrokerContactNmlsId": "12345",
+            "mortgageBrokerEmail": "test@test.com",
+            "signatureType": "AsApplicant"
+        },
+        "gfe2010": {
+            "allOtherServiceAmount": 998.19,
+            "dailyInterestCharges": 998.19,
+            "escrowChargeAllInsuranceIndicator": true,
+            "escrowChargeAllPropertyTaxesIndicator": true,
+            "escrowChargeOtherIndicator": false,
+            "gfe2010Fees": [
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801",
+                    "gfe2010FeeIndex": 12,
+                    "description": "Tax Service Fee"
+                },
+                {
+                    "gfe2010FeeParentType": "POCPTC900",
+                    "gfe2010FeeType": "Undefined",
+                    "gfe2010FeeIndex": 1,
+                    "pocPtcIndicator": true
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1002",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1003",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1004",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1005",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1006",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1007",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1008",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1009",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1000",
+                    "gfe2010FeeType": "Line1010",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1101a",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1101b",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1101c",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1101d",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1101e",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1101f",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102a",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102b",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102c",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102d",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102e",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102f",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102g",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1102h",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1103",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "sec32PointsAndFees2015": 0.0,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1104",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false,
+                    "sec32PointsAndFees2015": 0.0
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1109",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1110",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1111",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1112",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1113",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1114",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1115",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1100",
+                    "gfe2010FeeType": "Line1116",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1202",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1203",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1204",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1205",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1206",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1207",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1208",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1209",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1200",
+                    "gfe2010FeeType": "Line1210",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1302",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1303",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1304",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1305",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1306",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1307",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1308",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1309",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1310",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1311",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1312",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1313",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1314",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1315",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1316",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1317",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1318",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1319",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section1300",
+                    "gfe2010FeeType": "Line1320",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false,
+                    "optionalIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801Additional",
+                    "gfe2010FeeIndex": 12,
+                    "description": "Tax Service Fee"
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801A",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801B",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801C",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801D",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801E",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801G",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801H",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801I",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801J",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801K",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801L",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801M",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801N",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801O",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801P",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801Q",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line801R",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line802e",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line802f",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line802g",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line802h",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line803x",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line804",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line805",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line806",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line807",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line808",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line809",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line810",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line811",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line812",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line813",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line814",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line815",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line816",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line817",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line818",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line819",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line820",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line821",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line822",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line823",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line824",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line825",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line826",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line827",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line828",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line829",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line830",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line831",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line832",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line833",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line834",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800",
+                    "gfe2010FeeType": "Line835",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section800BrokerCompensation",
+                    "gfe2010FeeType": "Undefined",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line901",
+                    "gfe2010FeeIndex": 0,
+                    "totalFeeAmount2015": 998.19,
+                    "totalFeePercentage2015": 0.231,
+                    "borrowerPtc2015": 998.19,
+                    "borrowerPac2015": 998.19,
+                    "borrowerAmountPaid2015": 998.19,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line902",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line903",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line904",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line905",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": false,
+                    "borrowerDidShopForIndicator2015": false,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line906",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line907",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line908",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line909",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line910",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "borrowerDidShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line911",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "borrowerDidShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section900",
+                    "gfe2010FeeType": "Line912",
+                    "gfe2010FeeIndex": 0,
+                    "borrowerCanShopForIndicator2015": true,
+                    "borrowerDidShopForIndicator2015": true,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section700",
+                    "gfe2010FeeType": "Line701",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section700",
+                    "gfe2010FeeType": "Line702",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                },
+                {
+                    "gfe2010FeeParentType": "Section700",
+                    "gfe2010FeeType": "Line704",
+                    "gfe2010FeeIndex": 0,
+                    "sellerCreditIndicator2015": false
+                }
+            ],
+            "homeownerInsurance": 0.0,
+            "initialLoanAmount": 432000.0,
+            "initialMonthlyAmount": 1850.35,
+            "interestRateRiseIndicator": false,
+            "loanBalanceRiseIndicator": false,
+            "loanOriginatorName": "Apple Mortgage LLC",
+            "maxLifeInterestCapPercentUi": "0",
+            "monthlyPaymentRiseIndicator": false,
+            "totalSettlementCharges": 998.19,
+            "section1400TotalBorrowerPaidAmount": 998.19,
+            "section900TotalBorrowerPaidAmount": 998.19,
+            "section900TotalPaidAmount": 998.19,
+            "section1400TotalPaidAmount": 998.19,
+            "isCdValidForEarliestClosingDate": false
+        },
+        "gfe2010Page": {
+            "gfe2010FwbcFwscs": [
+                {
+                    "lineNumber": 210,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 211,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 306,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 307,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 308,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 316,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 408,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 411,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 412,
+                    "fwbc": "N"
+                },
+                {
+                    "lineNumber": 413,
+                    "fwbc": "N"
+                }
+            ],
+            "hasEscrowAccountIndicator": false,
+            "hasEscrowHomeownerInsurancesIndicator": false,
+            "hasEscrowPropertyTaxesIndicator": false,
+            "hud1Pg1TotalSettlementCharges": 998.19,
+            "hud1Pg2TotalSettlementCharges": 998.19,
+            "monthlyAmountIncludeInterestIndicator": true,
+            "monthlyAmountIncludePrincipalIndicator": true,
+            "prepaidInterest": 998.19
+        },
+        "gfe2010Section": {
+            "loCompensationItemizeFeesIndicator": true,
+            "loCompensationUseLoCompensationToolIndicator": true,
+            "section1100ItemizeFeesIndicator": true,
+            "section800BonaFideIndicator": true,
+            "section800ItemizeFeesIndicator": true,
+            "projectedPaymentTableColumns": "1",
+            "useActualPaymentChange": false,
+            "percentageDiscountPointsPaidByBorrower": 0.0
+        },
+        "impoundTaxesRate": 0.0,
+        "impoundType2": "Loan Amount",
+        "impoundType3": "Loan Amount",
+        "loanEstimate1": {
+            "rangePaymentIndicatorC1": false,
+            "loanTermYears": 30,
+            "loanTermMonths": 0,
+            "loanPurpose": "Purchase",
+            "loanProduct": "Fixed Rate",
+            "rateLockExpirationTime": "5:00 PM",
+            "rateLockExpirationTimeZone": "PST",
+            "closingCostEstimateExpirationTime": "5:00 PM",
+            "closingCostEstimateExpirationTimeZone": "PST",
+            "estimatedTaxesInsuranceAssessments": 658.0,
+            "estimatedTaxesInsuranceAssessmentsUi": "658",
+            "inEscrowPropertyTaxes": "No",
+            "inEscrowHomeownerInsurance": "No",
+            "inEscrowOther": "No",
+            "ppc1Year": 30,
+            "ppc1MinimumPiPayment": 1850.35,
+            "ppc1MinimumPiPaymentUi": "1,850.35",
+            "ppc1MaximumPiPayment": 1850.35,
+            "ppc1MaximumPiPaymentUi": "1,850.35",
+            "ppc1InterestOnly": false,
+            "ppc1MiAmountUi": "0",
+            "ppc1EstimatedEscrowAmount": 0,
+            "ppc1EstimatedEscrowAmountUi": "0",
+            "ppc1MinimumMonthlyPayment": 1850,
+            "ppc1MinimumMonthlyPaymentUi": "1,850.00",
+            "ppc1MaximumMonthlyPayment": 1850.35,
+            "ppc1MaximumMonthlyPaymentUi": "1,850.35",
+            "ppestimatedEscrowIndicator": false,
+            "reasonSettlementCharges": false,
+            "reasonEligibility": false,
+            "reasonRevisions": false,
+            "reasonInterestRate": false,
+            "reasonExpiration": false,
+            "reasonDelayedSettlement": false,
+            "reasonOther": false,
+            "totalEstimatedCashClose": 144846.0,
+            "closingCostEstimateExpirationTimeUi": "5:00 PM",
+            "closingCostEstimateExpirationTimeZoneUi": "PST",
+            "initialMonthlyPaymentFor10000Loan": 42.83,
+            "maximumMonthlyPaymentFor10000Loan": 42.83,
+            "maximumPaymentMonth": 1,
+            "initialMonthlyPaymentFor60000Loan": 256.98,
+            "interestRateAdjTermLabel": "Month",
+            "expirationGenericTimeZone": "PT"
+        },
+        "loanEstimate2": {
+            "originationChargesSubTotal": 0,
+            "servicesYouNotShopSubTotal": 0,
+            "servicesYouShopSubTotal": 0,
+            "totalLoanCosts": 0,
+            "taxesGovFeesSubTotal": 0,
+            "prepaidsSubTotal": 998,
+            "initialEscrowPaymentClosingSubTotal": 0,
+            "otherSubTotal": 0,
+            "totalOtherCosts": 998,
+            "totalClosingCosts": 998,
+            "totalLoanAndOtherCosts": 998,
+            "closingCostsFinanced": 0.0,
+            "downPayment": 143847.8,
+            "fundsForBorrower": 0.0,
+            "adjustmentsOtherCredits": 0.0,
+            "estimatedCashToCloseSv": 144846.0,
+            "estimatedCashToCloseAv": 415154.0,
+            "fromOrToBorrower": "To Borrower",
+            "useAlternate": false,
+            "sellerCreditAmount": 0,
+            "unroundedTotalLoanCosts": 0.0,
+            "unroundedTotalOtherCosts": 998.19,
+            "actualStdleTotalClosingCostJ": 998.19,
+            "actualStdleSellerCredits": 0.0,
+            "thirdPartyPaymentsNotOtherwiseDisclosed": 15847.8,
+            "useActualDownPaymentAndClosingCostsFinancedIndicator": false,
+            "estimatedTotalPayoffsAndPaymentsAmount": 15848
+        },
+        "loanEstimate3": {
+            "mortgageBrokerLicenseId": "2364732684",
+            "mortgageBrokerEmail": "test@test.com",
+            "mortgageBrokerLoanOfficer": "Joe Mortgage",
+            "mortgageBrokerLoanOfficerNmlsId": "12345",
+            "assumption": "WillNotAllowAssumption",
+            "totalInterestPercentage": 54.426,
+            "totalInterestPercentageUi": "54.426",
+            "in5YearsTotalYouWillHavePaid": 112019,
+            "in5YearsPrincipalYouWillHavePaidOff": 47061,
+            "signatureType": "None",
+            "lenderLicenseState": "CA",
+            "lenderLoanOfficerLicenseState": "CA"
+        },
+        "closingDisclosure1": {
+            "rangePaymentIndicatorC1": false,
+            "estimatedTaxesInsuranceAssessments": 657.59,
+            "inEscrowPropertyTaxes": "No",
+            "inEscrowHomeownerInsurance": "No",
+            "inEscrowOther": "No",
+            "ppc1Year": 30,
+            "ppc1MinimumPiPayment": 1850.35,
+            "ppc1MinimumPiPaymentUi": "1,850.35",
+            "ppc1MaximumPiPayment": 1850.35,
+            "ppc1MaximumPiPaymentUi": "1,850.35",
+            "ppc1InterestOnly": false,
+            "ppc1EstimatedEscrowAmount": 0.0,
+            "ppc1MinimumMonthlyPayment": 1850.35,
+            "ppc1MinimumMonthlyPaymentUi": "1,850.35",
+            "ppc1MaximumMonthlyPayment": 1850.35,
+            "ppc1MaximumMonthlyPaymentUi": "1,850.35",
+            "ppcMortgageInsuranceIndicator": false,
+            "reasonChangeInApr": false,
+            "reasonChangeInLoanProduct": false,
+            "reasonPrepaymentPenalty": false,
+            "reasonChangeSettlementCharges": false,
+            "reasonAdvancedReview": false,
+            "reasonToleranceCure": false,
+            "reasonClericalErrorCorrection": false,
+            "reasonOther": false,
+            "changedCircumstanceFlag": false,
+            "reasonRevisionsReqConsumer": false,
+            "reasonInterestRatecharges": false,
+            "reasonChangedCircumstanceElg": false,
+            "totalCashToClose": 144845.99,
+            "ppc1MiAmountUi": "0",
+            "ppc1EstimatedEscrowAmountUi": "0"
+        },
+        "closingDisclosure2": {
+            "originationChargesSubTotal": 0.0,
+            "servicesDidNotShopSubTotal": 0.0,
+            "servicesDidShopSubTotal": 0.0,
+            "totalLoanCost": 0.0,
+            "totalBorrowerPaidAtClosing": 0.0,
+            "totalBorrowerPaidBeforeClosing": 0.0,
+            "taxesGovermentFeesSubTotal": 0.0,
+            "prepaidsSubTotal": 998.19,
+            "initialEscrowSubTotal": 0.0,
+            "otherSubTotal": 0.0,
+            "totalOtherCost": 998.19,
+            "totalOtherCostAtClosing": 998.19,
+            "totalOtherCostBeforeClosing": 0.0,
+            "totalClosingCost": 998.19,
+            "borrowerClosingCostAtClosing": 998.19,
+            "borrowerClosingCostBeforeClosing": 0.0,
+            "sellerClosingCostAtClosing": 0.0,
+            "sellerClosingCostBeforeClosing": 0.0,
+            "closingCostPaidByOthers": 0.0
+        },
+        "closingDisclosure3": {
+            "closingCostsPaidAtClosing": 998.19,
+            "totalDuefromBorrowerAtClosing": 560998.19,
+            "totalPaidAlreadybyoronBehalfofBoroweratClosing": 432000.0,
+            "cashToClose": 128998.19,
+            "totalDuetoSelleratClosingM": 560000.0,
+            "totalDuefromSelleratClosingN": 0.0,
+            "cash": 560000.0,
+            "totalFromK": 560998.19,
+            "totalFromL": 432000.0,
+            "totalFromM": 560000.0,
+            "totalFromN": 0.0,
+            "finalCashToClose": 144845.99,
+            "closingCostsPaidatClosingJ": 0.0,
+            "fromToBorrower": "From Borrower",
+            "fromToSeller": "To Seller",
+            "liabilityTo1": "First International Bank",
+            "liabilityTo2": "Bank of Wyoming",
+            "liabilityTo3": "Gold Canyon Bank",
+            "liabilityTo4": "Gold Canyon Bank",
+            "liabilityAmount1": 14099.33,
+            "liabilityAmount2": 348.45,
+            "liabilityAmount3": 41.02,
+            "liabilityAmount4": 1359.0,
+            "liabilityTotal": 15847.8,
+            "loanAmount": 432000.0,
+            "cd3TotalClosingCostJ": 998.19,
+            "cd3ClosingCostsPaidBeforeClosing": 0.0,
+            "cd3TotalPayoffsAndPaymentsK": 15847.8,
+            "cd3CashToClose": 415154.01,
+            "cd3CashToCloseFromToBorrower": "To Borrower",
+            "leLoanAmount": 0.0,
+            "lecd3TotalClosingCostJ": 0.0,
+            "lecd3ClosingCostsPaidBeforeClosing": 0.0,
+            "lecd3TotalPayoffsAndPaymentsK": 0.0,
+            "lecd3CashToClose": 0.0,
+            "lecd3CashToCloseFromToBorrower": "From Borrower",
+            "stdleTotalClosingCostJ": 0.0,
+            "stdleCd3ClosingCostsPaidBeforeClosing": 0.0,
+            "stdleClosingCostFinanced": 0.0,
+            "stdleDownPayment": 0.0,
+            "stdleDeposit": 0.0,
+            "stdleFundForBorrower": 0.0,
+            "stdleSellerCredits": 0.0,
+            "stdleAdjustmentAndOtherCredits": 0.0,
+            "stdleCashToClose": 0.0,
+            "stdFinalTotalClosingCostJ": 998.19,
+            "stdFinalCd3ClosingCostsPaidBeforeClosing": 0.0,
+            "stdFinalClosingCostFinanced": 0.0,
+            "stdFinalDownPayment": 143847.8,
+            "stdFinalDeposit": 0.0,
+            "stdFinalFundForBorrower": 0.0,
+            "stdFinalSellerCredits": 0.0,
+            "stdFinalAdjustmentAndOtherCredits": 0.0,
+            "stdTotalClosingCostDidChangeCol": "YES",
+            "stdTotalClosingCostBeforeClosingDidChangeCol": "NO",
+            "stdDownPaymentDidChangeCol": "YES",
+            "stdDepositDidChangeCol": "NO",
+            "stdFundsForBorrowerDidChangeCol": "NO",
+            "stdSellerCreditsDidChangeCol": "NO",
+            "stdAdjustmentsDidChangeCol": "NO",
+            "altLoanAmountDidChangeCol": "YES",
+            "altTotalClosingCostDidChangeCol": "YES",
+            "altClosingCostBeforeClosingDidChangeCol": "NO",
+            "altTotalPayoffsDidChangeCol": "YES",
+            "altCashToCloseDidChangeCol": "YES",
+            "stdTotalClosingCostRemark": "Total Other Costs (I)",
+            "stdDownPaymentIncDecRemark": "Increased",
+            "stdClosingCostFinancedDidChangeCol": "NO",
+            "stdDownPaymentSectionRemark": "K and L",
+            "altLoanAmountIncDecRemark": "Increased",
+            "altTotalClosingCostRemark": "Total Other Costs (I)",
+            "actualLeLoanAmountFromLatestRec": 0.0,
+            "actualLecd3TotalClosingCostJFromLatestRec": 0.0,
+            "actualLecd3TotalPayoffsAndPaymentsKFromLatestRec": 0.0,
+            "actualStdleTotalClosingCostJFromLatestRec": 0.0,
+            "actualStdleClosingCostFinancedFromLatestRec": 0.0,
+            "actualStdleDownPaymentFromLatestRec": 0.0,
+            "actualStdleDepositFromLatestRec": 0.0,
+            "actualStdleFundForBorrowerFromLatestRec": 0.0,
+            "actualStdleSellerCreditsFromLatestRec": 0.0,
+            "actualStdleAdjustmentAndOtherCreditsFromLatestRec": 0.0,
+            "excludeBorrowerClosingCosts": false,
+            "omitFromPrintSellersTransaction": true,
+            "ucdkSubTotal": 0.0,
+            "ucdlSubTotal": 0.0,
+            "ucdTotalAdjustmentsAndOtherCredits": 0.0,
+            "nonUcdTotalAdjustmentsAndOtherCredits": 0.0,
+            "totalAdjustmentsAndOtherCredits": 0.0,
+            "newVerbiageDisclosed": false
+        },
+        "closingDisclosure4": {
+            "negativeAmortization": "none",
+            "partialPayment": "apply partial payment",
+            "estimatedPropertyCosts": 7233.49,
+            "escrowIndicator": false,
+            "monthlyEscrowPayment": 0.0,
+            "interestOnlyPayments": false,
+            "stepPayments": false,
+            "seasonalPayments": false,
+            "partialPaymentHoldUntilComplete": "hold until complete amount",
+            "ignoreArmAdj": false,
+            "escrowedPropertyCostsBasis": "ConsummationDate"
+        },
+        "feeVarianceOther": {
+            "appliedCureAmount": 0.0
+        }
+    },
+    "closingCostProgram": "Wholesale Closing Cost Template",
+    "closingDocument": {
+        "additionalStateDisclosures": [
+            {
+                "stateCode": "CA",
+                "disclosureName": "MICancelCondType",
+                "disclosureValue": "PrincipalBalance"
+            },
+            {
+                "stateCode": "CA",
+                "disclosureName": "InterestChargeDisclosureIndicator",
+                "disclosureValue": "Immediately"
+            },
+            {
+                "stateCode": "FL",
+                "disclosureName": "MethodUsedToDetermineLockInInterestRateDescription",
+                "disclosureValue": "Borrowers choice"
+            },
+            {
+                "stateCode": "GA",
+                "disclosureName": "CommitmentConditions1",
+                "disclosureValue": "N/A"
+            },
+            {
+                "stateCode": "GA",
+                "disclosureName": "FeeDisclosureAlternative",
+                "disclosureValue": "Alternative1"
+            },
+            {
+                "stateCode": "HI",
+                "disclosureName": "IncludeOptionalFormInDisclosurePackageIndicator",
+                "disclosureValue": false
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service1",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service2",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service3",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service4",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service5",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service6",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service7",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service8",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service9",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service10",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service11",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service12",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "ID",
+                "disclosureName": "Service13",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "KS",
+                "disclosureName": "StatutoryElectionInKansas",
+                "disclosureValue": "No Statutory Election"
+            },
+            {
+                "stateCode": "MD",
+                "disclosureName": "StatutoryElectionInMaryland",
+                "disclosureValue": "No Statutory Election"
+            },
+            {
+                "stateCode": "MD",
+                "disclosureName": "RefinanceSubordination5",
+                "disclosureValue": false
+            },
+            {
+                "stateCode": "MN",
+                "disclosureName": "LocationForAdvanceFees",
+                "disclosureValue": "BANK OF AMERICA, 2000 CLAYTON RD, CONCORD CA, 94520"
+            },
+            {
+                "stateCode": "MN",
+                "disclosureName": "TrustAcctNumber",
+                "disclosureValue": "1235742852"
+            },
+            {
+                "stateCode": "MN",
+                "disclosureName": "ReqActionByBorrower1",
+                "disclosureValue": "Provide Lender with additional information, when requested, as needed to determine your ability to repay the loan."
+            },
+            {
+                "stateCode": "MN",
+                "disclosureName": "ReqActionByLender1",
+                "disclosureValue": "Review all relevant information needed to determine your ability to repay the loan."
+            },
+            {
+                "stateCode": "MN",
+                "disclosureName": "ReqActionByLender2",
+                "disclosureValue": "If your loan program requires a property valuation, lender will review the property valuation to ensure the value and condition of the property meet investor requirements."
+            },
+            {
+                "stateCode": "MN",
+                "disclosureName": "LowerRatePermittedCondition1",
+                "disclosureValue": "N/A"
+            },
+            {
+                "stateCode": "MO",
+                "disclosureName": "RateLockAgreement1",
+                "disclosureValue": "N/A"
+            },
+            {
+                "stateCode": "MO",
+                "disclosureName": "Commitment1",
+                "disclosureValue": "N/A"
+            },
+            {
+                "stateCode": "NJ",
+                "disclosureName": "AdvanceFeeRefundCondition1",
+                "disclosureValue": "Application Fee is refundable if a loan is denied, or is applied to finance charges at closing."
+            },
+            {
+                "stateCode": "NJ",
+                "disclosureName": "AdvanceFeeRefundCondition2",
+                "disclosureValue": "Appraisal Fee is refundable if the Appraisal is NOT completed."
+            },
+            {
+                "stateCode": "NJ",
+                "disclosureName": "InterestRateAtLenderIndicator",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "NJ",
+                "disclosureName": "SettlementServicesPaidByBorrowerIndicator",
+                "disclosureValue": "N"
+            },
+            {
+                "stateCode": "NV",
+                "disclosureName": "LoanDocumentType",
+                "disclosureValue": "Full Document Loan"
+            },
+            {
+                "stateCode": "NV",
+                "disclosureName": "IncomeVerifiedByOther",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "NY",
+                "disclosureName": "InterestRateDisclosureAt",
+                "disclosureValue": "At time of rate lock"
+            },
+            {
+                "stateCode": "NY",
+                "disclosureName": "BankerChooseDateForInterestRateIndicator",
+                "disclosureValue": true
+            },
+            {
+                "stateCode": "OH",
+                "disclosureName": "AfterChangeInEscrowPaymentForCalculation",
+                "disclosureValue": "Not Required"
+            },
+            {
+                "stateCode": "OH",
+                "disclosureName": "AfterChangeInMIPaymentForCalculation",
+                "disclosureValue": "Not Required"
+            },
+            {
+                "stateCode": "OH",
+                "disclosureName": "BorrowerAcknowledgesDocument",
+                "disclosureValue": "Borrower applied in person"
+            },
+            {
+                "stateCode": "OR",
+                "disclosureName": "EscrowAccountSelected",
+                "disclosureValue": false
+            },
+            {
+                "stateCode": "PA",
+                "disclosureName": "DirectlyEnter",
+                "disclosureValue": "Can"
+            },
+            {
+                "stateCode": "WI",
+                "disclosureName": "ConditionsChange",
+                "disclosureValue": "Changes in terms requested by borrower.\r\nAny valid change in circumstance as defined by RESPA.\r\nExpiration of the locked rate."
+            }
+        ],
+        "closingProvider": "Encompass Docs",
+        "compliancePropertyIdentifiedDate": "2023-03-30",
+        "disbursementDate": "2023-04-04",
+        "disbursementsToBorrower": 415154.01,
+        "documentPreparationDate": "2023-04-04",
+        "documentSigningDate": "2023-04-04",
+        "drawCity": "Moorpark",
+        "drawState": "CA",
+        "legalAttached": true,
+        "mortgageType": "Uninsured",
+        "prepaymentPenaltyDescriptions1": "N/A",
+        "processingNumberDays": 45,
+        "rateLockRefundConditions1": "N/A",
+        "respaHudDetails": [
+            {
+                "lineNumber": 120,
+                "lineItemAmount": 560998.19
+            },
+            {
+                "lineNumber": 420,
+                "lineItemAmount": 560000.0
+            },
+            {
+                "lineNumber": 220,
+                "lineItemAmount": 432000.0
+            },
+            {
+                "lineNumber": 303,
+                "lineItemAmount": 128998.19,
+                "realValue": 128998.19
+            },
+            {
+                "lineNumber": 603,
+                "lineItemAmount": 560000.0,
+                "realValue": 560000.0
+            },
+            {
+                "lineNumber": 103,
+                "lineItemAmount": 998.19
+            }
+        ],
+        "signatureDateFor1003": "2023-03-30",
+        "suretyCompanyName": "The Hartford Fire Insurance Co.",
+        "syncInterestDateDisbursementDate": true,
+        "titleReportRequiredEndorsementsDescription": "8.1, 9, 116 as necessary for full and completed coverage.",
+        "totalDisbursed": 15847.8
+    },
+    "combinedLtv": 77.143,
+    "commitmentTerms": {
+        "manufacturedHousing": false,
+        "mortgageeAddress": "3043 Townsgate Road, Suite 200",
+        "mortgageeCity": "Westlake Village",
+        "mortgageeName": "PennyMac Loan Services, LLC",
+        "mortgageePostalCode": "91361",
+        "mortgageeState": "CA",
+        "totalMonthlyExpense": 657.59
+    },
+    "conformingJumbo": "Conforming",
+    "constructionManagement": {},
+    "contacts": [
+        {
+            "contactType": "LOAN_OFFICER",
+            "name": "TPO LO User2"
+        },
+        {
+            "contactType": "BROKER_LENDER",
+            "address": "Apple Mortgage LLC",
+            "city": "Los Angeles",
+            "companyId": "000000",
+            "name": "Apple Mortgage LLC",
+            "phone": "818-224-7442",
+            "postalCode": "90001",
+            "state": "CA"
+        },
+        {
+            "contactType": "BROKER_LENDERSsnCompanyAgent",
+            "address": "10277 Scripps Ranch Boulevard",
+            "city": "San Diego",
+            "name": "CoreLogic",
+            "postalCode": "92131",
+            "state": "CA"
+        },
+        {
+            "contactType": "BROKER_LENDERSsnCompany",
+            "address": "3043 Townsgate Road, Suite 200",
+            "city": "Westlake Village",
+            "name": "PennyMac Loan Services, LLC",
+            "postalCode": "91361",
+            "state": "CA"
+        },
+        {
+            "contactType": "LENDER_INVESTOR",
+            "address": "3043 Townsgate Road, Suite 200",
+            "city": "Westlake Village",
+            "contactName": "Nichol Davis-Brown",
+            "email": "BDLClosingDisclosure@pnmac.com",
+            "name": "PennyMac Loan Services, LLC",
+            "nmlsLicense": "35953",
+            "phone": "866-584-9030",
+            "postalCode": "91361",
+            "state": "CA",
+            "lenderType": "State Bank (STB)",
+            "licenseHomeState": "AR"
+        },
+        {
+            "contactType": "BROKER",
+            "address": "3043 Townsgate Road, Suite 200",
+            "city": "Westlake Village",
+            "contactName": "Joe Mortgage",
+            "name": "BDL Test Broker 1",
+            "nmlsLicense": "567890",
+            "postalCode": "91361",
+            "referenceNumber": "2364732684",
+            "state": "CA",
+            "taxId": "41111111",
+            "licenseType": "Finance Lenders Law License (Broker)",
+            "licenseExempt": false
+        },
+        {
+            "contactType": "DOCSPREPAREDBY",
+            "address": "3043 Townsgate Road, Suite 200",
+            "city": "Westlake Village",
+            "name": "PennyMac Loan Services, LLC",
+            "phone": "800-777-4001",
+            "postalCode": "91361",
+            "state": "CA"
+        },
+        {
+            "contactType": "MORTGAGEE",
+            "address": "P.O. Box 6618",
+            "city": "Springfield",
+            "clause": "Its Successors And/Or Assigns",
+            "fax": "818-224-7397",
+            "name": "PENNYMAC LOAN SERVICES, LLC",
+            "phone": "818-224-7442",
+            "postalCode": "45501-6618",
+            "state": "OH"
+        }
+    ],
+    "copyLoanNumLenderCaseNum": "Y",
+    "correspondent": {
+        "noteDate": "2023-04-04",
+        "gracePeriodDays": 0,
+        "lateFeePercentage": 0.0,
+        "additionalLateFeeCharge": 0.0,
+        "lfsCalculateAs": 0,
+        "lfsFeeHandledAs": 0,
+        "lfsGracePeriodCalendar": 0,
+        "lfsGracePeriodLaterOf": 1,
+        "lfsGracePeriodStarts": 0,
+        "lfsIncludeDay": 0,
+        "lfsLateFeeBasedOn": 0,
+        "lfsMaxLateDays": 0,
+        "lfsStartOnWeekend": 0,
+        "lfsGracePeriodDays": 0,
+        "lfsDayCleared": 1,
+        "lateDaysEndTrigger": "Purchase Approval Date",
+        "lfsLateFee": 0.0,
+        "lfsAmount": 0.0,
+        "loanStatus": "Conditional Approval",
+        "loanStatusLastUpdatedDateTime": "2023-03-30T16:30:22Z",
+        "autoPublishConditions": true,
+        "loanStatusOcr": "Conditional Approval",
+        "loanStatusChangeUserName": "Everest API System",
+        "loanStatusDateTimeStamp": "2023-03-30T09:30:22Z"
+    },
+    "currentApplicationIndex": 0,
+    "customFields": [
+        {
+            "fieldName": "CX.LETRIGGERDATACOLLECTEDDT",
+            "value": "2023-03-29",
+            "format": "DATE"
+        },
+        {
+            "fieldName": "CUST03FV",
+            "value": "2023-03-29",
+            "format": "DATE"
+        },
+        {
+            "fieldName": "CX.BORROWERCOUNT",
+            "value": 2,
+            "format": "INTEGER"
+        },
+        {
+            "fieldName": "CX.LETRIGGERDATACOLLECTED",
+            "value": true,
+            "format": "YN"
+        },
+        {
+            "fieldName": "CX.BORROWERPAIRSCOUNT",
+            "value": 1,
+            "format": "INTEGER"
+        },
+        {
+            "fieldName": "CX.EXHIBIT.OVERALLSTATUS",
+            "value": "PASS",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.CPV.CD.VALIDATION.STATUS",
+            "value": "PASS",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.PROPINS.HAZ.TERM",
+            "value": "12",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.INSURANCE.ESCROWED",
+            "value": false,
+            "format": "YN"
+        },
+        {
+            "fieldName": "CX.FHACALC.ORIGVALUEHUDFHACT",
+            "value": 560000.0,
+            "format": "DECIMAL_2"
+        },
+        {
+            "fieldName": "CX.FHACALC.MARKETAPPRVALUE",
+            "value": 560000.0,
+            "format": "DECIMAL_2"
+        },
+        {
+            "fieldName": "CX.PROPINS.HAZ.IMPOUNDED",
+            "value": false,
+            "format": "YN"
+        },
+        {
+            "fieldName": "CX.CHECKCOBORROWERPAIRSSN",
+            "value": true,
+            "format": "YN"
+        },
+        {
+            "fieldName": "CX.FHACALC.PNMACLTVCAP",
+            "value": 135,
+            "format": "INTEGER"
+        },
+        {
+            "fieldName": "CX.FHACALC.PNMACCLTVCAP",
+            "value": 135,
+            "format": "INTEGER"
+        },
+        {
+            "fieldName": "CX.VA.CASHOUT.NTB.STAT",
+            "value": "FAIL",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.FDS.COSCOREID",
+            "value": "1",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.WESTVMFLOODORDERID",
+            "value": "CLGGU12303238",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.WESTVMFLOODSTATUS",
+            "value": "In Research",
+            "format": "STRING"
+        },
+        {
+            "fieldName": "CX.MERS.EXPORTDATE",
+            "value": "2023-03-30",
+            "format": "DATE"
+        }
+    ],
+    "customModelFields": {},
+    "disclosureNotices": {
+        "daysToReceiveWrittenRequest": "90",
+        "ecoaAddress": "Equal Credit Opportunity",
+        "ecoaCity": "Washington",
+        "ecoaName": "Federal Trade Commision",
+        "ecoaPostalCode": "20580",
+        "ecoaState": "DC",
+        "fairLendingNoticeDescription1": "California Department of Financial Protection and Innovation",
+        "fairLendingNoticeDescription3": "2101 Arena Boulevard",
+        "fairLendingNoticeDescription5": "Sacramento, CA 95834",
+        "fairLendingNoticeDescription7": "Phone:(866)275-2677 or (916)327-7585",
+        "lossPayeeClause": "PENNYMAC LOAN SERVICES, LLC., Its Successors and/or Assigns, P.O. BOX 29247, PHOENIX, AZ 85038"
+    },
+    "docEngine": "New_Encompass_Docs_Solution",
+    "downPaymentPercent": 22.857,
+    "downPayment": {
+        "amount": 128000.0
+    },
+    "loCompensation": {
+        "whoPaidCompensation": "Lender Paid"
+    },
+    "emDocument": {},
+    "emDocumentInvestor": {},
+    "emDocumentLender": {},
+    "encompassVersion": "23.1.0.0",
+    "enforceCountyLoanLimit": true,
+    "emXmlVersionId": "23.100",
+    "estimatedPrepaidItemsAmount": 998.19,
+    "existingLiensAndDrawUsed": 432000.0,
+    "fannieMae": {
+        "cltv": 78.0,
+        "hcltv": 78.0,
+        "ltv": 78.0
+    },
+    "fees": [
+        {
+            "feeType": "PrepaidInterest",
+            "amountPerDay": 36.97,
+            "truncatedAmountPerDay": 36.97,
+            "borPaidAmount": 998.19,
+            "fromDate": "2023-04-04",
+            "toDate": "2023-05-01",
+            "days": 27,
+            "paidToOthers": 998.19,
+            "use4Decimals": true
+        },
+        {
+            "feeType": "PropertyTaxes",
+            "monthlyPayment": 583.33
+        },
+        {
+            "feeType": "UserDefined_1205",
+            "description": "Municipal Lien Certificate Recording Fee"
+        }
+    ],
+    "fhaVaLoan": {
+        "closingDate": "2023-04-04",
+        "energyEfficientMortgage": {
+            "appraisedValue": 560000.0,
+            "backRatio": 21.72,
+            "monthlyHousingPayment": 657.59,
+            "totalMonthlyHousingPayment": 657.59,
+            "totalMonthlyObligations": 5.695
+        },
+        "lenderAddress": "3043 Townsgate Road, Suite 200",
+        "lenderCity": "Westlake Village",
+        "lenderName": "PennyMac Loan Services, LLC",
+        "lenderNmls": "35953",
+        "lenderPostalCode": "91361",
+        "lenderState": "CA",
+        "minimumDownPayment": 19600.0,
+        "prepaidExpenses": 998.19,
+        "proposedMaturityYears": 30,
+        "totalClosingCost": 998.19,
+        "useDefaultLenderInfo": true,
+        "fhaSalesPrice": 100000.0,
+        "fhaMortgageAmount": 96500.0,
+        "fhaMortgageAmountUmip": 98188.0,
+        "fhaClosingCost": 2000.0,
+        "fhaDownPayment": 3500.0,
+        "fhaInterestRate": 5.0,
+        "fhaLoanTerm": 30,
+        "fhaMonthlyPayment": 527.09,
+        "fhaLtv": 96.5,
+        "fhaMmi": 99.85,
+        "fhaYearsMonthlyInsurance": 10,
+        "fhaUmip": 1688.0,
+        "conventionalSalesPrice": 100000.0,
+        "conventionalMortgageAmount": 95000.0,
+        "conventionalClosingCost": 2000.0,
+        "conventionalDownPayment": 5000.0,
+        "conventionalInterestRate": 100.0,
+        "conventionalLoanTerm": 30,
+        "conventionalMonthlyPayment": 509.98,
+        "conventionalLtv": 95.0,
+        "conventionalMmi": 53.04,
+        "conventionalMaxYearsMi": 9
+    },
+    "fieldLockData": [
+        "loan.uldd.investorFeatureIdentifier",
+        "loan.uldd.freddieInvestorFeatureIdentifier",
+        "loan.hmda.loanAmount",
+        "loan.hmda.denialReason1",
+        "loan.hmda.initiallyPayableToYourInstitution",
+        "loan.hmda.submissionOfApplication",
+        "loan.hmda.aus1",
+        "loan.hmda.aus2",
+        "loan.hmda.aus3",
+        "loan.hmda.aus4",
+        "loan.hmda.aus5",
+        "loan.hmda.ausRecommendation1",
+        "loan.hmda.loanPurpose",
+        "loan.hmda.manufacturedSecuredPropertyType",
+        "loan.hmda.manufacturedHomeLandPropertyInterest",
+        "loan.applications[(id == '439c3ac1-ad2f-4401-b509-b9b8c39afebf')].borrower.hmdaAge",
+        "loan.applications[(id == '439c3ac1-ad2f-4401-b509-b9b8c39afebf')].coborrower.hmdaAge",
+        "loan.statementCreditDenial.lenderInvestorName",
+        "loan.statementCreditDenial.lenderInvestorPostalCode",
+        "loan.statementCreditDenial.lenderInvestorAddress",
+        "loan.statementCreditDenial.lenderInvestorCity",
+        "loan.statementCreditDenial.lenderInvestorState",
+        "loan.statementCreditDenial.lenderInvestorPhone"
+    ],
+    "firstAdjustmentMinimum": 3.124,
+    "firstSubordinateLienAmount": 432000.0,
+    "firstTimeHomebuyersIndicator": true,
+    "fnmCommunityLendingProductName": "08",
+    "freddieMac": {
+        "allMonthlyPayments": 2507.94,
+        "helocActualBalance": "0.00",
+        "netPurchasePrice": 560000.0,
+        "originalIntRate": 3.124,
+        "reserves": -71448.39
+    },
+    "funding": {
+        "fundingOrderDate": "2023-04-03",
+        "fundsWireTo": "2",
+        "fundingFees": "901.|F.03|False|Daily Interest Charges||Borrower|Lender/Other|998.19|0||0||0|0|0|0|0|0|0|0",
+        "wireAmount": 0.0
+    },
+    "gfe": {
+        "address": "3043 Townsgate Road, Suite 200",
+        "brokerName": "PennyMac Loan Services, LLC",
+        "brokerRepresentative": "Everest API System",
+        "city": "Westlake Village",
+        "estimatedCashAtClosing": -303001.81,
+        "gfeFees": [
+            {
+                "gfeFeeType": "SubtotalOfInitialFeesPaid",
+                "gfeFeeIndex": 0,
+                "otherAmount": 998.19
+            }
+        ],
+        "gfePayments": [
+            {
+                "gfePaymentIndex": 1,
+                "maximumDifference": 11546.67,
+                "minimumDifference": 11546.67
+            },
+            {
+                "gfePaymentIndex": 2,
+                "maximumDifference": 10106.67,
+                "minimumDifference": 11546.67,
+                "monthlyPaymentYear6": 1440.0,
+                "monthlyPaymentYear6Change": 1440.0,
+                "monthlyPaymentYear6MaxChange": 1440.0
+            },
+            {
+                "gfePaymentIndex": 3,
+                "maximumDifference": 11546.67,
+                "minimumDifference": 11546.67
+            },
+            {
+                "gfePaymentIndex": 4,
+                "maximumDifference": 11546.67,
+                "minimumDifference": 11546.67,
+                "monthlyPaymentYear6": 1440.0
+            },
+            {
+                "gfePaymentIndex": 5,
+                "maximumDifference": 11546.67,
+                "minimumDifference": 11546.67,
+                "monthlyPaymentYear6": 1203.34
+            },
+            {
+                "gfePaymentIndex": 6,
+                "isBalanceReduced": "Yes",
+                "maximumDifference": 9696.32,
+                "minimumDifference": 9696.32,
+                "minimumMonthlyPayment": 1850.35,
+                "monthlyPaymentYear1": 1850.35,
+                "monthlyPaymentYear6": 1850.35,
+                "monthlyPaymentYear6Change": 1850.35,
+                "monthlyPaymentYear6MaxChange": 1850.35,
+                "owedAfter5Years": 384938.66,
+                "reducedLoanBalance": 47061.34,
+                "reducedStatus": "decreased"
+            }
+        ],
+        "hasPrepaymentPenaltyIndicator": false,
+        "monthlyPaymentAndEscrow": 1850.0,
+        "postalCode": "91361",
+        "purchasePayOff": 128000.0,
+        "state": "CA",
+        "subtotalOfAllDeductions": 128998.19,
+        "totalOfInitialFees": 998.19,
+        "totalPrepaidClosingCost": 998.19
+    },
+    "hcltvHtltv": 77.143,
+    "hmda": {
+        "balloonIndicator": "N",
+        "cdRequired": true,
+        "censusTrack": "000000",
+        "countyCode": "073",
+        "excludeLoanFromHmdaReportIndicator": false,
+        "hoepaStatus": "Not a HOEPA Loan",
+        "hmda2InterestOnlyIndicator": "N",
+        "lienStatus": "Secured by a first lien",
+        "loanBalanceRiseIndicator": "N",
+        "msaNumber": "41740",
+        "preapprovals": "Preapproval was not requested",
+        "rateSpread": "0.083",
+        "stateCode": "06",
+        "qmStatus": "Non-QM",
+        "reportingYear": 2021,
+        "universalLoanId": "RVDPPPGHCGZ40J4VQ731613018941348",
+        "applicationDate": "2023-03-30",
+        "loanType": "Conventional",
+        "loanAmount": 432000.0,
+        "income": 139,
+        "otherNonAmortization": "No other non-fully amortizing features",
+        "multifamilyNoUnits": "Not applicable",
+        "submissionOfApplication": "Not submitted directly to your institution",
+        "reverseMortgage": "Not a reverse mortgage",
+        "businessOrCommercialPurpose": "Not primarily for a business or commercial purpose",
+        "financialInstitutionName": "PennyMac Loan Services LLC",
+        "contactName": "Jeff Frowiss",
+        "contactPhoneNumber": "805-530-5808",
+        "contactEmailAddress": "JEFF.FROWISS@PNMAC.COM",
+        "contactOfficeStreetAddress": "3043 Townsgate Road, Suite 200",
+        "contactOfficeCity": "Westlake Village",
+        "contactOfficeState": "CA",
+        "contactOfficeZipCode": "91361",
+        "contactFaxNumber": "818-936-0370",
+        "federalAgency": "HUD",
+        "federalTaxpayerIdNumber": "26-2649351",
+        "legalEntityIdentifier": "RVDPPPGHCGZ40J4VQ731",
+        "respondentId": "26-2049351",
+        "parentName": "PennyMac Loan Services LLC",
+        "parentAddress": "3043 Townsgate Road, Suite 200",
+        "parentCity": "Westlake Village",
+        "parentState": "CA",
+        "parentZip": "91361",
+        "totalLoanCosts": "0",
+        "totalPointsAndFees": "NA",
+        "originationCharges": "0",
+        "prepaymentPenaltyPeriod": "NA",
+        "loanTerm": "360",
+        "introRatePeriod": "NA",
+        "propertyValue": "560000",
+        "nmlsLoanOriginatorId": "12345",
+        "hmdaPropertyZipCode": "92154",
+        "hmdaPropertyAddress": "3852 Jensen Parkway Suite 114",
+        "hmdaPropertyCity": "Dennisbury",
+        "hmdaPropertyState": "CA",
+        "hmdaSyncAddressIndicator": true,
+        "repurchasedReportingYear": 2023,
+        "hmdaProfileId": "1",
+        "hmdaProfileDtiValue": "21.720",
+        "hmdaProfileCltvValue": "77.143",
+        "hmdaProfileIncomeValue": "11546.67",
+        "hmdaProfileApplicationDateValue": "2023-03-30",
+        "hmdaLoanPurpose": "Home Purchase",
+        "hmdaInterestOnlyIndicator": false,
+        "hmdaCensusTrack": "06073000000",
+        "hmdaCountyCode": "06073"
+    },
+    "homeCounselingProvidersServiceNames": "FHW,FBC,DFC,PLW,DFW",
+    "homeCounselingProvidersDistance": "500",
+    "hud1Es": {
+        "annualHazardInsurance": 891.12,
+        "annualTax": 6999.96,
+        "biweeklyCountyTaxes": 269.23,
+        "biweeklyHazardInsurance": 34.27,
+        "biweeklyPiti": 925.18,
+        "biweeklyTotalBiweeklyPayment": 925.18,
+        "hud1EsDates": [
+            {
+                "id": "3f06cfe9-d98f-4232-9e1b-672e80e8dc98",
+                "date": "06/23"
+            },
+            {
+                "id": "0652f392-5d24-40d4-acc9-7c235f69b133",
+                "date": "07/23"
+            },
+            {
+                "id": "25350fb4-3366-458d-901a-f5d75dc12825",
+                "date": "08/23"
+            },
+            {
+                "id": "c9a9107a-877a-4a7b-8168-2a2d22e44a15",
+                "date": "09/23"
+            },
+            {
+                "id": "03de7bb0-cb2b-4ae0-b64a-41a9816da33c",
+                "date": "10/23"
+            },
+            {
+                "id": "0611024b-304c-4c90-9f8e-ce9a14df4d4d",
+                "date": "11/23"
+            },
+            {
+                "id": "4b6c4f26-dbf9-4f92-9c27-f15c3de5bb6f",
+                "date": "12/23"
+            },
+            {
+                "id": "42264eb1-9904-4c22-8622-077502b4d551",
+                "date": "01/24"
+            },
+            {
+                "id": "736426c0-7ba5-44a5-94f5-1ac1cf88e95a",
+                "date": "02/24"
+            },
+            {
+                "id": "4d74c6da-815e-41a7-b602-19691647180d",
+                "date": "03/24"
+            },
+            {
+                "id": "2e474858-c2ed-439e-8b69-86a20f522403",
+                "date": "04/24"
+            },
+            {
+                "id": "9d8c90b7-e5e4-4f39-8744-3b126ba52cbf",
+                "date": "05/24"
+            },
+            {
+                "id": "301dd217-1436-480b-9676-cbf328e5513a",
+                "date": "06/24"
+            },
+            {
+                "id": "0ddbd4d3-80df-4ff8-a35d-04e34933770b",
+                "date": "07/24"
+            },
+            {
+                "id": "c5055954-9520-4d2d-8589-d5f510a71847",
+                "date": "08/24"
+            },
+            {
+                "id": "07f219b2-a308-4103-9ca0-628d16699758",
+                "date": "09/24"
+            },
+            {
+                "id": "a118f515-3bbf-4993-bedb-91274019acc3",
+                "date": "10/24"
+            },
+            {
+                "id": "949f90b0-d5a7-4682-929e-56ed4babf8ed",
+                "date": "11/24"
+            },
+            {
+                "id": "8cbe506c-334a-4b6d-a98e-39f255e229ec",
+                "date": "12/24"
+            },
+            {
+                "id": "b9b5191a-e4fe-4870-b018-a8cf977ad336",
+                "date": "01/25"
+            },
+            {
+                "id": "8653e1b9-f9d5-4ed9-909e-3ad1159fb9ae",
+                "date": "02/25"
+            },
+            {
+                "id": "cbfaecd5-0f91-45a1-9079-9db5c4aee94c",
+                "date": "03/25"
+            },
+            {
+                "id": "97767118-ac90-45ff-838c-bead987228af",
+                "date": "04/25"
+            },
+            {
+                "id": "89856fd7-c19d-46d5-948f-949a6a59bfff",
+                "date": "05/25"
+            },
+            {
+                "id": "369e63b8-7a60-4bdd-b290-b698fdd32eed"
+            },
+            {
+                "id": "054daff2-8841-4267-a290-ec4da9ac4cf9"
+            },
+            {
+                "id": "26164ef7-93a7-44a9-affe-b7979b0c92a6"
+            },
+            {
+                "id": "f1862f82-ed30-4f7c-8d93-4f9b60350034"
+            },
+            {
+                "id": "68580044-d51c-48aa-bd15-a74963e2def9"
+            },
+            {
+                "id": "10d9f885-d31d-4136-9578-43f51e01238a"
+            },
+            {
+                "id": "511cf4bb-47df-4cb3-8c98-38b34b264eaa"
+            },
+            {
+                "id": "f745ba1d-d9e5-4043-9e3c-c1dbc19afd68"
+            },
+            {
+                "id": "371c62ad-2e78-47f2-a05f-97dc08738fb2"
+            },
+            {
+                "id": "fdd6cf8a-f164-430e-9928-360a32d16e72"
+            },
+            {
+                "id": "ec8dc751-e9cb-4484-aa14-c84fc5d1b355"
+            },
+            {
+                "id": "62779cf2-985e-4b0c-b108-2bb35b0a48b6"
+            },
+            {
+                "id": "8a3a8157-c982-458c-a30c-9eeb96a2c2d5"
+            },
+            {
+                "id": "f735433f-24ee-490c-88af-a37bc0853e73"
+            },
+            {
+                "id": "09feb487-53c2-4d3e-b116-5ab2b54c5c10"
+            },
+            {
+                "id": "25702a12-c0cc-43ee-850f-4bc3321ab69e"
+            },
+            {
+                "id": "0fdd429e-d976-477e-aa4e-58c361257839"
+            },
+            {
+                "id": "022ba55b-acfe-4b3b-ba42-df1ad9a9a387"
+            },
+            {
+                "id": "e4526296-1291-468f-b72e-938965312176"
+            },
+            {
+                "id": "60789038-9734-485c-96f2-e5a4c3f60579"
+            },
+            {
+                "id": "9d255893-62f1-458a-909d-0a462096a66c"
+            },
+            {
+                "id": "badd9504-a603-4fc3-98cf-e8e925cec68d"
+            },
+            {
+                "id": "89ce1e0b-e8af-46c1-a296-dbdca17ceec2"
+            },
+            {
+                "id": "990e17d9-ea2c-4e3d-8f58-d1627f3eafb4"
+            }
+        ],
+        "hud1EsDueDates": [
+            {
+                "id": "68e92034-c523-48c3-a9ae-e424ca18d80a"
+            },
+            {
+                "id": "dd830a9d-767f-41b4-bb57-fdf2fe297e3f"
+            },
+            {
+                "id": "83f09c21-1153-40ea-9099-68772dd124a7"
+            },
+            {
+                "id": "998ead3c-056e-4d0a-879f-6889db9623e5"
+            }
+        ],
+        "hud1EsItemizes": [
+            {
+                "id": "ad00eb93-eb62-467a-98e2-28e2477f565f",
+                "date": "06/23"
+            },
+            {
+                "id": "a1248366-649f-45a2-a609-ec5ae85e98ab",
+                "date": "07/23"
+            },
+            {
+                "id": "85b578a7-4678-4b81-a14b-9c1ba84b63b8",
+                "date": "08/23"
+            },
+            {
+                "id": "4072906a-9348-42d9-ba4a-597ffca1185a",
+                "date": "09/23"
+            },
+            {
+                "id": "cca97273-b809-42a4-b672-5e2018029f45",
+                "date": "10/23"
+            },
+            {
+                "id": "fe507d80-f401-4785-941c-e25c644b5b6f",
+                "date": "11/23"
+            },
+            {
+                "id": "de617ed9-0992-46a4-b89e-a78e7f43b812",
+                "date": "12/23"
+            },
+            {
+                "id": "6563e11b-8350-405f-8f8e-2384c2e5f016",
+                "date": "01/24"
+            },
+            {
+                "id": "a5c9ba5b-2d6c-4943-ab7b-240e899dc5e3",
+                "date": "02/24"
+            },
+            {
+                "id": "6431c64e-b80d-4b2a-af2b-48971f177f9b",
+                "date": "03/24"
+            },
+            {
+                "id": "3b95fc7c-c688-4e45-bd26-61d9c61a7952",
+                "date": "04/24"
+            },
+            {
+                "id": "38c7dc33-826e-4d05-b91f-d20cd237841a",
+                "date": "05/24"
+            },
+            {
+                "id": "d333872c-3037-4a45-8dda-69873da82d05"
+            },
+            {
+                "id": "7f1e8740-0f52-44e9-a9fd-35c25d573e27"
+            },
+            {
+                "id": "846df6b7-8b04-43ad-a2e2-8ec5ddabb24e"
+            },
+            {
+                "id": "b2039259-a1fa-4999-9aa8-030268eb2ed1"
+            },
+            {
+                "id": "46085f1f-8778-4a71-947f-1f44535232cc"
+            },
+            {
+                "id": "bf282a54-2b6e-4a6b-b41a-c3091ea8ce1f"
+            },
+            {
+                "id": "ab50bee6-47df-4f9c-90ee-20aa177a9075"
+            },
+            {
+                "id": "efa6266d-e6b7-4a8b-945e-05cb622f7925"
+            },
+            {
+                "id": "b2cee7dd-7e3c-4b5b-a5ab-ff2f6de2c291"
+            },
+            {
+                "id": "365ffeb4-3d74-4e4f-9229-510c8694d48d"
+            },
+            {
+                "id": "6b15294b-3532-4b46-bfb5-9d6f32ce542b"
+            },
+            {
+                "id": "a7310cb8-870a-4a84-b488-baf6a9d6d8e1"
+            },
+            {
+                "id": "5a97e214-4e43-421a-8391-aa286b252e75"
+            },
+            {
+                "id": "e6f711dc-d41d-408d-b0b8-95b7ec6abff0"
+            },
+            {
+                "id": "c74bc18c-d184-406e-9729-1e0e70e65a8f"
+            },
+            {
+                "id": "28df2d91-108f-4853-bec1-c8f19923649d"
+            },
+            {
+                "id": "0eec7b4b-3daa-43cd-b19f-8595b2d3d765"
+            },
+            {
+                "id": "d0d05c41-fd07-472b-b3ed-dab6af75258c"
+            },
+            {
+                "id": "cc320d99-edbd-437b-ad9d-101002f91fbc"
+            },
+            {
+                "id": "e2112a22-4665-427c-9d40-540a9f23c3ae"
+            },
+            {
+                "id": "657ddea5-ca58-4747-9fe0-4a30c9480055"
+            },
+            {
+                "id": "de4eb619-21dc-4d8a-92c9-5584d8425c1a"
+            },
+            {
+                "id": "f5fed4db-7b46-4fc9-b927-7681d21b86ea"
+            },
+            {
+                "id": "7d3ba1fe-7505-4c1f-84f6-3366517b2bee"
+            },
+            {
+                "id": "16c3e94c-ce35-41a8-ae6b-1dc9bb86fc92"
+            },
+            {
+                "id": "9c88ffc8-f93a-4876-94c6-51bc2b3c2571"
+            },
+            {
+                "id": "00ff7f6d-0210-4ae2-975e-6a24298e158d"
+            },
+            {
+                "id": "9b8602e5-5af0-42d6-a180-592a3ae733bf"
+            },
+            {
+                "id": "3711a9fb-fdab-401b-9263-21043e45b287"
+            },
+            {
+                "id": "2892406f-7b36-4480-8044-395a7b6d2fe3"
+            },
+            {
+                "id": "e75fc751-4e77-46d8-b590-3136b3e487b9"
+            },
+            {
+                "id": "56681230-6071-43c5-98dc-3944c3501975"
+            },
+            {
+                "id": "0278a1b8-23e6-4b6f-86c2-7781ea3a5f2f"
+            },
+            {
+                "id": "185db1c1-4036-44e0-b9fb-935e7ba40c77"
+            },
+            {
+                "id": "91756f0e-cc70-4aa0-bbe7-d47c4ab68451"
+            },
+            {
+                "id": "5ac995c2-5335-4b1b-8f1c-ed6a3b59df02"
+            }
+        ],
+        "hud1EsItemizesTotalLines": 12,
+        "hud1EsSetups": [
+            {
+                "id": "b53a989d-65f7-414a-bc61-dfe8bc845394",
+                "date": "06/2023"
+            },
+            {
+                "id": "4fd7dab5-4edb-4808-9f53-ad10660dfc8d",
+                "date": "07/2023"
+            },
+            {
+                "id": "914c3ff8-9045-4ad8-be5c-1605f7af2eee",
+                "date": "08/2023"
+            },
+            {
+                "id": "26f5ca55-d246-4638-be74-450eae897cd4",
+                "date": "09/2023"
+            },
+            {
+                "id": "e8dd062d-3676-4a38-ae12-7ec3d8e97b9f",
+                "date": "10/2023"
+            },
+            {
+                "id": "72dda221-9c92-47ed-b5d4-b1354a09b553",
+                "date": "11/2023"
+            },
+            {
+                "id": "5530cc6a-3ed0-4191-944a-ef2b7f3e3236",
+                "date": "12/2023"
+            },
+            {
+                "id": "c88aa859-0506-43e7-85df-3b630c94e786",
+                "date": "01/2024"
+            },
+            {
+                "id": "d2781f9b-02d7-4d96-aaaf-019e9b393266",
+                "date": "02/2024"
+            },
+            {
+                "id": "dee11ff0-c6b6-45af-b7ca-abf1857d7710",
+                "date": "03/2024"
+            },
+            {
+                "id": "8bb7048c-01bc-477b-8754-8daac9b41111",
+                "date": "04/2024"
+            },
+            {
+                "id": "ab91df17-9385-4462-9d13-7789bec55612",
+                "date": "05/2024"
+            },
+            {
+                "id": "2c58518d-fa95-4396-a7a1-d81f76cdb8a7",
+                "date": "06/2024"
+            },
+            {
+                "id": "6927bba5-5366-4d1b-a692-a05424122a15",
+                "date": "07/2024"
+            },
+            {
+                "id": "e1490740-aad7-43e1-8289-33b51abbfcce",
+                "date": "08/2024"
+            },
+            {
+                "id": "21c885bc-8cd7-4f0a-b74e-a0804d5aaca3",
+                "date": "09/2024"
+            },
+            {
+                "id": "ab196d90-bd1d-4e9d-a00a-5b32f65929ca",
+                "date": "10/2024"
+            },
+            {
+                "id": "88e7dcb9-0d8f-4bb3-af7d-fcffb7752032",
+                "date": "11/2024"
+            },
+            {
+                "id": "5a2e25b8-2ea5-43e7-9e35-ef6fcbd8ad7f",
+                "date": "12/2024"
+            },
+            {
+                "id": "8c379ee1-9f6e-4de8-8999-d641059e1775",
+                "date": "01/2025"
+            },
+            {
+                "id": "d9f0db7f-1ce9-4433-8b4b-acf5925d3b86",
+                "date": "02/2025"
+            },
+            {
+                "id": "d7d4ff5f-5930-4267-ad34-d0ed1ec6cad0",
+                "date": "03/2025"
+            },
+            {
+                "id": "13753fec-9d52-4ef6-bf25-0600aa91dd9d",
+                "date": "04/2025"
+            },
+            {
+                "id": "f4d6b6d2-9337-41df-a4bf-8d41494768c9",
+                "date": "05/2025"
+            },
+            {
+                "id": "e502862e-97ed-4c4e-b666-add91e6346b2",
+                "date": "06/2025"
+            },
+            {
+                "id": "76a802d1-af2d-464d-a9a7-b6b52f1723e3",
+                "date": "07/2025"
+            },
+            {
+                "id": "52306ba5-da8c-4588-9816-88984c2d1cea",
+                "date": "08/2025"
+            },
+            {
+                "id": "60039cd1-47c9-4a72-a6b0-f9ffb12e809f",
+                "date": "09/2025"
+            },
+            {
+                "id": "ec990181-29e4-4236-b1df-48bb6c200906",
+                "date": "10/2025"
+            },
+            {
+                "id": "26cbc07e-24c4-49f6-a626-d676fa04456f",
+                "date": "11/2025"
+            },
+            {
+                "id": "8e051932-0eca-4263-92ac-1104d5a57b3a",
+                "date": "12/2025"
+            },
+            {
+                "id": "f72b21a6-7aae-4905-8a76-1979863199c7",
+                "date": "01/2026"
+            },
+            {
+                "id": "b1bb8eb4-97ce-4868-bd40-2b7c7a2cd359",
+                "date": "02/2026"
+            },
+            {
+                "id": "5cfbf25a-1daa-4202-831e-c2e49439de44",
+                "date": "03/2026"
+            },
+            {
+                "id": "129b22c7-9dc5-402e-ac3b-ccf315045dca",
+                "date": "04/2026"
+            },
+            {
+                "id": "7c3ac634-9eb7-40a7-9d68-89f5d2ce5dbb",
+                "date": "05/2026"
+            },
+            {
+                "id": "8f1a67d0-caeb-4278-9805-35f4e649d86e",
+                "date": "06/2026"
+            },
+            {
+                "id": "339ea0a5-a6ee-4c04-ad23-8fb18f3929dc",
+                "date": "07/2026"
+            },
+            {
+                "id": "151110a8-ffe5-4be8-bccb-253c5a2120a1",
+                "date": "08/2026"
+            },
+            {
+                "id": "85126b74-3b52-42f7-aab9-4e704bb7f0c5",
+                "date": "09/2026"
+            },
+            {
+                "id": "8ad18fba-4d9d-4f32-81a4-eff7eeefc830",
+                "date": "10/2026"
+            },
+            {
+                "id": "ab7eac1c-cb15-4384-999c-9fc3a6df15af",
+                "date": "11/2026"
+            },
+            {
+                "id": "beac8417-d5cc-4b29-baf8-1d08dafda3be",
+                "date": "12/2026"
+            },
+            {
+                "id": "a690b12c-44b5-4587-bb08-b2d4f085be16",
+                "date": "01/2027"
+            },
+            {
+                "id": "a99b503d-16de-4b6c-a532-b869b0ad9da9",
+                "date": "02/2027"
+            },
+            {
+                "id": "4f89f142-97bb-40db-ba8d-3026a2b11b99",
+                "date": "03/2027"
+            },
+            {
+                "id": "715a2bf6-ed71-4ed2-abd3-ce8627b5924e",
+                "date": "04/2027"
+            },
+            {
+                "id": "84d13c5f-95ad-4285-843f-f613941571ba",
+                "date": "05/2027"
+            }
+        ],
+        "mtgInsDisbCushion": 0,
+        "startingBalance": 0.0,
+        "totalEscrowReserves": 657.59,
+        "escrowPaymentYearly": 0.0,
+        "nonEscrowCostsYearly": 7891.08,
+        "escrowFirstPaymentDate": "2023-06-01",
+        "escrowFirstPaymentDateType": "FirstPaymentDate"
+    },
+    "hudLoanData": {
+        "contractSalesPrice": 560000.0,
+        "lesserOfSalesPrice": 560000.0,
+        "loanPurpose": "Purchase",
+        "supplementalOriginationFee": 350.0,
+        "totalFixedUnpaidBalance": 15847.8,
+        "financeableMortgageFeesIfCharged": 350.0,
+        "totalRehabilitationCostsFeesReserves": 350.0,
+        "purchasePriceLessInducementToPurchase": 560000.0,
+        "step2EPlusStep1E": 560350.0,
+        "appropriateLtvFactor": 96.5,
+        "initialDrawAtClosingTotal": 350.0,
+        "rehabilitationEscrowAccount": 350.0,
+        "criteriaForAppropriateLtvFactor": "Manual Underwriting Required"
+    },
+    "initialInterestRate": 3.124,
+    "initialInterestRateUi": "3.124",
+    "interimServicing": {
+        "beginningBalance": 432000.0
+    },
+    "interviewerEmail": "test@test.com",
+    "interviewersId": "00everestrey-qa2",
+    "interviewerName": "Joe Mortgage",
+    "lenderCaseIdentifier": "6130189413",
+    "lenderChannel": "Broker",
+    "loanAmortizationTermMonths": 360,
+    "loanAmortizationType": "Fixed",
+    "loanCreationDate": "2023-03-30T16:21:22Z",
+    "loanImportStatusIndicator": true,
+    "loanNumber": "6130189413",
+    "loanProductData": {
+        "balloonIndicator": false,
+        "balloonLoanMaturityTermMonthsCount": 360,
+        "floorPercentUi": "0",
+        "indexMarginPercentUi": "0",
+        "initialAdvanceAmount": 0.0,
+        "lienPriorityType": "FirstLien",
+        "loanDocumentationType": "FullDocumentation",
+        "loanScheduledClosingDate": "2023-04-04",
+        "maxLifeInterestCapPercent": 3.124,
+        "maxLifeInterestCapPercentUi": "3.124",
+        "nmlsDocumentationType": "Full",
+        "nmlsFirstMortgageType": "PrimeConformingFixed",
+        "nmlsLoanType": "ResidentialFirst",
+        "nmlsOptionArmIndicator": false,
+        "nmlsPiggyBackOrFundedHelocIndicator": false,
+        "nmlsRefinancePurposeType": "Purchase",
+        "initialApplicationAmount": 432000.0,
+        "prepaymentPenaltyIndicator": false,
+        "qualifyingRatePercent": 3.124,
+        "rateAdjustmentPercentUi": "0",
+        "rateAdjustmentSubsequentCapPercentUi": "0",
+        "scheduledFirstPaymentDate": "2023-06-01",
+        "helocLienPosition": "1",
+        "helocEscrowAccountIndicator": false,
+        "helocDrawPaymentBasis": true,
+        "helocRepaymentBasis": true,
+        "helocTaRequestAdvanceInPersonIndicator": false,
+        "helocTaRequestAdvanceViaInternetIndicator": false,
+        "helocTaPeriodicCapAppliedToRepaymentPeriod": false,
+        "helocTaInstallmentLoanDiscountedAprIndicator": false
+    },
+    "loanSource": "ULAD / iLAD (MISMO 3.4)",
+    "loanSubmission": {
+        "amountAvailable": 49564.93,
+        "amountRequiredToClose": 131013.34
+    },
+    "ltv": 77.143,
+    "ltvPropertyValue": 560000.0,
+    "maturityDate": "2053-05-01",
+    "mcaw": {
+        "adjustedPurchasePrice": 560000.0,
+        "cashReserves": 38966.76,
+        "contractSalesPrice": 560000.0,
+        "lesserSalesPrice": 560000.0,
+        "mortgageBasisPurchase": 560000.0,
+        "mortgageBasisRefinance": 998.19,
+        "sixPercentOfLineA1": 33600.0,
+        "maximumSellerContribution4Percent": 22400.0,
+        "statutoryInvestment": 19600.0,
+        "totalCashToClose": 20598.19,
+        "unadjustedAcquisition": 560998.19
+    },
+    "mersNumber": "100715970006968281",
+    "milestoneCompletedDueDate": "2023-03-30",
+    "milestoneCurrentDate": "2023-03-30T16:30:03Z",
+    "milestoneCurrentName": "In Review",
+    "milestoneFileStartedDate": "2023-03-30",
+    "milestoneFreeRoles": [
+        {
+            "id": "965bcbdb-87e5-4e98-aae7-9e6d0b4b36af",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "23",
+                    "entityName": "Account Executive",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "71360ea7-533d-4f06-8488-2904192a7a00",
+            "loanAssociate": {
+                "loanAssociateType": "User",
+                "user": {
+                    "entityId": "5792889584",
+                    "entityName": "TPO LO User2",
+                    "entityType": "User"
+                },
+                "email": "tpolo2@pnmac.com",
+                "role": {
+                    "entityId": "20",
+                    "entityName": "TPO Loan Officer",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "f41b3b88-34b5-4189-bb73-b4a497c0ba10",
+            "loanAssociate": {
+                "loanAssociateType": "User",
+                "user": {
+                    "entityId": "4861409434",
+                    "entityName": "TPO LP User2",
+                    "entityType": "User"
+                },
+                "cellPhone": "8888888888",
+                "email": "tpolp2@pnmac.com",
+                "fax": "8887411200",
+                "phone": "8888888888",
+                "role": {
+                    "entityId": "21",
+                    "entityName": "TPO Loan Processor",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "0a79868b-872a-4f3f-9bb2-2439886329bf",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "10",
+                    "entityName": "Lock Desk",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "d6f735e9-d458-4c12-a33a-07c02c0ad7c0",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "6",
+                    "entityName": "Underwriter",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "ecffe3a7-2502-402b-88d4-cbb72f6508ce",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "7",
+                    "entityName": "Closer",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "a5a49489-3130-48e6-9226-fdd32fd389b0",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "8",
+                    "entityName": "Funder",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "be99a0c0-bfe6-4169-8ceb-41eff72fa5ad",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "9",
+                    "entityName": "Post Closer",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "706baaf0-00d4-4b96-bf3a-647d9469be8f",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "22",
+                    "entityName": "TPO Manager",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        },
+        {
+            "id": "00691b42-a62a-4547-9ba9-80ad3d12e1d6",
+            "loanAssociate": {
+                "role": {
+                    "entityId": "28",
+                    "entityName": "Fulfillment Analyst",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            }
+        }
+    ],
+    "milestones": [
+        {
+            "id": "cb299aaa-2e5c-46bc-8026-b8e3a532fafb",
+            "startDate": "2023-03-30T16:21:22Z",
+            "days": 0,
+            "doneIndicator": true,
+            "duration": -1,
+            "loanAssociate": {
+                "loanAssociateType": "User",
+                "user": {
+                    "entityId": "00everestrey-qa2",
+                    "entityName": "Everest API System",
+                    "entityType": "User"
+                },
+                "email": "michael.hocter@pnmac.com",
+                "role": {
+                    "entityId": "0",
+                    "entityName": "File Starter",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            },
+            "reviewedIndicator": true,
+            "roleRequired": "N",
+            "name": "Started",
+            "milestoneSetting": {
+                "entityId": "1",
+                "entityType": "MilestoneSetting"
+            }
+        },
+        {
+            "id": "991a4ccd-591e-4693-983d-0df0a6c82c04",
+            "startDate": "2023-03-30T16:29:48Z",
+            "days": 0,
+            "doneIndicator": true,
+            "duration": -1,
+            "loanAssociate": {
+                "role": {
+                    "entityId": "0",
+                    "entityType": "Role"
+                }
+            },
+            "reviewedIndicator": true,
+            "roleRequired": "N",
+            "name": "Submit to Ops",
+            "milestoneSetting": {
+                "entityId": "cdd34a3b-2801-458e-a665-48e66e04e1a2",
+                "entityType": "MilestoneSetting"
+            }
+        },
+        {
+            "id": "6ca56f08-d456-4e8c-b996-18fefc6c20cd",
+            "startDate": "2023-03-30T16:30:03Z",
+            "days": 0,
+            "doneIndicator": true,
+            "duration": -1,
+            "loanAssociate": {
+                "role": {
+                    "entityId": "24",
+                    "entityName": "Credit Analyst",
+                    "entityType": "Role"
+                },
+                "writeAccess": false
+            },
+            "reviewedIndicator": true,
+            "roleRequired": "N",
+            "name": "In Review",
+            "milestoneSetting": {
+                "entityId": "21dbdc1b-259e-41b8-86bc-6fbf3f935e70",
+                "entityType": "MilestoneSetting"
+            }
+        },
+        {
+            "id": "bf9e4238-f6bc-450d-98aa-7ef7ab2967c1",
+            "startDate": "2023-03-30T16:24:22Z",
+            "days": 0,
+            "doneIndicator": false,
+            "duration": 0,
+            "loanAssociate": {
+                "role": {
+                    "entityId": "0",
+                    "entityType": "Role"
+                }
+            },
+            "reviewedIndicator": false,
+            "roleRequired": "N",
+            "name": "Completion",
+            "milestoneSetting": {
+                "entityId": "7",
+                "entityType": "MilestoneSetting"
+            }
+        }
+    ],
+    "milestoneStage": "PREQUAL",
+    "miscellaneous": {
+        "closingCostProgramFile": "\\Companywide\\Wholesale Closing Cost Template",
+        "closingTaxYear": "2023",
+        "closingTaxYearInterestReceived": 998.19,
+        "docSetFile": "\\Companywide\\All Documents",
+        "loanTemplateFile": "\\Companywide\\BDL\\BDL-Default",
+        "miscDataFile": "\\Companywide\\Wholesale",
+        "newBuyDownEnabled": true,
+        "useGfeTax": "Y",
+        "contactName": "Everest API System",
+        "contactPhone": "818-224-7442",
+        "loanFileSequenceNumber": 38,
+        "tpoConnectStatusUpdated": true,
+        "savedLogVersion": "No Log"
+    },
+    "monthlyPiPaymentAmountForLe1andCd1": 1850.35,
+    "mortgageType": "Conventional",
+    "netTangibleBenefit": {
+        "existingLoanPaymentDifference": -1850.35,
+        "newLoanPaymentWithMiDifference": -1850.35,
+        "newLoanPaymentWithObligationDifference": -2507.94,
+        "newLoanIsSafeHarborQm": false
+    },
+    "nmlsLoanOriginatorId": "12345",
+    "occupancyType": "OwnerOccupied",
+    "organizationCode": "613",
+    "originationDate": "2023-03-30",
+    "originatorAddressLineText": "Apple Mortgage LLC",
+    "originatorFirstName": "Joe",
+    "originatorLastName": "Mortgage",
+    "paymentScheduleCalcRequiredIndicator": true,
+    "pmiIndicator": false,
+    "prequalification": {
+        "afterTaxOwnMoSavings": 2507.94,
+        "avgMoPmtSavings": 2507.94,
+        "beforeTaxOwnMoPmt": 2507.94,
+        "combinedGain": -1782.23,
+        "favorableOption": "Buying",
+        "homeSellingPriceAfterYears": 560000.0,
+        "investmentGain": 725.71,
+        "minusDownPmtAndClosingCosts": 128000.0,
+        "minusLoanBalance": 431274.29,
+        "monthlySavings": -1405,
+        "prequalificationScenarios": [
+            {
+                "prequalificationScenarioIndex": 1,
+                "totalBaseCost": 560000.0,
+                "totalPaidOffOthers": 15847.8
+            },
+            {
+                "prequalificationScenarioIndex": 2,
+                "currentStatus": "Yellow"
+            },
+            {
+                "prequalificationScenarioIndex": 3,
+                "currentStatus": "Yellow"
+            }
+        ],
+        "qualificationStatus": "Yellow",
+        "totalGain": 1782.23,
+        "totalLiabilityUnpaid": 16450,
+        "totalLoanSavings": -649674,
+        "totalOwnPmtOverYears": 2507.94,
+        "totalPaidOffBalance": 15848,
+        "totalPaidOffMonthly": 445,
+        "totalPmtSavings": 2507.94,
+        "withinLimits9": "No"
+    },
+    "principalAndInterestMonthlyPaymentAmount": 1850.35,
+    "print2003Application": "2020",
+    "printUliOnUrla": false,
+    "privacyPolicy": {
+        "month": "1",
+        "year": 11
+    },
+    "profitManagement": {},
+    "property": {
+        "addressLineText": "3852 Jensen Parkway Suite 114",
+        "city": "Dennisbury",
+        "county": "San Diego",
+        "fhaSecondaryResidenceIndicator": false,
+        "financedNumberOfUnits": 1,
+        "floodCertificationIdentifier": "2303041322",
+        "freCashOutAmount": 0.0,
+        "legalDescriptionText1": "See Prelim TItle Report",
+        "loanPurposeType": "Purchase",
+        "loanPurposeTypeUrla": "Purchase",
+        "nameRecordingJurisdiction": "San Diego",
+        "occupancyDisplayField": "Primary",
+        "postalCode": "92154",
+        "propertyMixedUsageIndicator": false,
+        "propertyRightsType": "FeeSimple",
+        "propertyUsageType": "PrimaryResidence",
+        "state": "CA",
+        "streetAddress": "3852 Jensen Parkway Suite 114",
+        "structureBuiltYear": "1980",
+        "typeRecordingJurisdiction": "County"
+    },
+    "propertyAppraisedValueAmount": 560000,
+    "propertyEnergyEfficientHomeIndicator": false,
+    "propertyEstimatedValueAmount": 560000,
+    "proposedFirstMortgageAmount": 1850.35,
+    "proposedHazardInsuranceAmount": "74.26",
+    "proposedOtherAmount": 0.0,
+    "proposedRealEstateTaxesAmount": "583.33",
+    "purchaseCredits": [
+        {
+            "purchaseCreditIndex": 1,
+            "amount": -1167.35,
+            "purchaseCreditType": "CD 3 Section K"
+        },
+        {
+            "purchaseCreditIndex": 2,
+            "amount": 10000.0,
+            "purchaseCreditType": "CD 3 Section L"
+        }
+    ],
+    "purchasePriceAmount": 560000.0,
+    "rateLock": {
+        "amountDue": 432000.0,
+        "amountDueTo": "Lender",
+        "amountPaidTo": "Lender",
+        "balloonLoanMaturityTermMonths": 360,
+        "baseLoanAmount": 432000.0,
+        "borrowerRequestedLoanAmount": 432000.0,
+        "combinedLtv": 77.143,
+        "currentAcquisition": false,
+        "currentConstructionRefi": false,
+        "diffAmountReceived": -432000.0,
+        "diffPrinciple": -432000.0,
+        "employmentBorrowerSelfEmployedIndicator1": false,
+        "expectedAmountReceived": 432000.0,
+        "expectedPrinciple": 432000.0,
+        "fhaSecondaryResidence": false,
+        "financedNumberOfUnits": 1,
+        "firstSubordinateAmount": 432000.0,
+        "firstTimeHomebuyersIndicator": true,
+        "hcltvHtltv": 77.14285714285714,
+        "helocCreditLimit": 0.0,
+        "subjectPropertyPropertyStreetAddress": "3852 Jensen Parkway Suite 114",
+        "lienPriorityType": "FirstLien",
+        "loanAmortizationTermMonths": 360,
+        "loanAmortizationType": "Fixed",
+        "loanDocumentationType": "FullDocumentation",
+        "loanScheduledClosingDate": "2023-04-04",
+        "lockRequestBorrowers": [
+            {
+                "lrbIndex": 1,
+                "firstName": "Sam",
+                "lastName": "Evans",
+                "ssn": "000-01-0000"
+            },
+            {
+                "lrbIndex": 2,
+                "firstName": "Tim",
+                "lastName": "Evans"
+            }
+        ],
+        "lockRequestLoanPurposeType": "Purchase",
+        "ltv": 77.143,
+        "mortgageType": "Conventional",
+        "propertyAppraisedValueAmount": 560000,
+        "propertyEstimatedValueAmount": 560000,
+        "propertyUsageType": "PrimaryResidence",
+        "purchasePriceAmount": 560000.0,
+        "reconciledDiff": 432000.0,
+        "requestPrepayPenalty": "N",
+        "subjectPropertyCity": "Dennisbury",
+        "subjectPropertyCounty": "San Diego",
+        "subjectPropertyPostalCode": "92154",
+        "subjectPropertyState": "CA",
+        "subjectPropertyStreetAddress": "3852 Jensen Parkway Suite 114",
+        "correspondentWarehouseBankId": 0,
+        "daysToExtend": 0,
+        "correspondentAdditionalEscrowNumOfPayments": 0,
+        "correspondentPaymentHistoryNoteDate": "2023-04-04",
+        "correspondentPaymentHistoryFirstBorrowerPaymentDueDate": "2023-06-01",
+        "rateRequestStatus": "NotLocked-NoRequest",
+        "requestLockType": "NewLock",
+        "requestLockStatus": "Not Locked",
+        "isCancelled": "N",
+        "rateStatus": "NotLocked",
+        "requestPending": "N",
+        "requestType": "Lock",
+        "extensionRequestPending": "N",
+        "cancellationRequestPending": "N",
+        "reLockRequestPending": "N",
+        "borrLenderPaid": "Lender Paid",
+        "correspondentRetainUserInputs": false,
+        "pudIndicator": false,
+        "notInProjectIndicator": true,
+        "totalBranchPriceConcession": 0.0,
+        "totalCorporatePriceConcession": 0.0
+    },
+    "regulationZ": {
+        "allDateAndNumericalDisclosuresIndicator": true,
+        "amountFinanced": 432000.0,
+        "aprPercent": 3.124,
+        "aprPercentUi": "3.124",
+        "assumptionOnYourProperty": "May_not",
+        "borrowerIntendToContinueIndicator": false,
+        "borrowerMiTerminationDate": "2023-06-01",
+        "demandFeatureIndicator": false,
+        "disclosureType": "Initial",
+        "filingFees": 150.0,
+        "financeCharge": 234124.03,
+        "gfeApplicationDate": "2023-03-30",
+        "gfeChangedCircumstanceIndicator": false,
+        "gfeRateLockRedisclosureRequiredIndicator": false,
+        "hud1ToleranceViolatedIndicator": false,
+        "initialDisclosureDueDate": "2023-04-04",
+        "interestInNameOf": "3852 Jensen Parkway Suite 114, Dennisbury, CA 92154",
+        "interestOnlyIndicator": false,
+        "lateChargeComments": "The late fee will never exceed $5 or 5%, whichever is greater.",
+        "lateChargeDays": 15,
+        "lateChargePercent": 5.0,
+        "lateChargeBasis": 2507.94,
+        "lateChargeType": "of the principal and interest overdue",
+        "maximumPayment": 42.83,
+        "meansAnEstimateIndicator": true,
+        "minimumPayment": 42.83,
+        "miScheduledTerminationDate": "2023-06-01",
+        "mmiIndicator": false,
+        "namePreparedBy": "Everest API System",
+        "numberOfPayments": 360,
+        "paymentFrequencyType": "Monthly",
+        "pmiIndicator": false,
+        "pmiMidpointCancelationDate": "2038-06-01",
+        "regulationZInterestRatePeriods": [
+            {
+                "regulationZInterestRatePeriodType": "InitialPeriod",
+                "monthlyPayment": 1850.35,
+                "totalPayment": 1850.35
+            }
+        ],
+        "regulationZPayments": [
+            {
+                "regulationZPaymentIndex": 1,
+                "balance": 1843.58,
+                "interestRatePercent": 3.124,
+                "monthlyPayment": 1850.35,
+                "numberOfPayments": 359,
+                "paymentDate": "2023-06-01"
+            },
+            {
+                "regulationZPaymentIndex": 2,
+                "balance": 0.0,
+                "interestRatePercent": 3.124,
+                "monthlyPayment": 1848.38,
+                "numberOfPayments": 1,
+                "paymentDate": "2053-05-01"
+            }
+        ],
+        "regzTableType": "Fixed",
+        "samplePayments": 256.98,
+        "totalOfPayments": 666124.03,
+        "useDaysInYears": "365",
+        "yearOfMaximumPayment": "1st",
+        "totalOfPrincipalAndInterest": 666124.03,
+        "lateFee": 92.51,
+        "totalLatePayment": 1942.86,
+        "zeroPercentPaymentOption": "AmortizingPayment",
+        "interestAccrual": "Actuarial"
+    },
+    "requestedInterestRatePercent": 3.124,
+    "requestedInterestRatePercentUi": "3.124",
+    "section32": {
+        "loanQualifyAsHighCostMortgage": "does not",
+        "maximumPercentageOfLoan": 5.0,
+        "maximumPointsAndFees": 21600.0,
+        "resultOfPointAndFees": "does not",
+        "resultOfSecurityYieldTest": "does not",
+        "exceed2PercentPrepayPenalty": "does not"
+    },
+    "selectedHomeCounselingProvider": {},
+    "servicingDisclosure": {
+        "weDoNotSellMortgageLoansIndicator": true,
+        "weDoNotServiceMortgageLoansIndicator": true
+    },
+    "shipping": {},
+    "stateDisclosure": {
+        "actingOtherDescription1": "Direct Lender",
+        "actingOthersIndicator": true,
+        "brokerageFeeDays": 30,
+        "commitmentCondition1": "Processing and underwriting application.",
+        "disclosureDeliveredBy": "Other",
+        "disclosureDeliveredByOtherMethod": "BY INTERNET OR U.S. MAIL",
+        "nameOfLicensee": "PennyMac Loan Services, LLC",
+        "offerRetailPriceIndicator": true,
+        "refundableType": "Refundable",
+        "refundCondition1": "Application Fee is refundable if a loan is denied, or is applied to finance charges at closing.",
+        "refundCondition2": "Appraisal Fee is refundable if the Appraisal is NOT completed.",
+        "scRegulatoryAgencyType": "South Carolina Board of Financial Institutions",
+        "regulatorAddress": "1205 Pendleton Street, Suite 306",
+        "regulatorWebAddress": "http://www.consumerfinance.sc.gov/complaints",
+        "regulatorCity": "Columbia",
+        "regulatorState": "SC",
+        "regulatorZipCode": "29201",
+        "regulatorPhone": "803-734-2020"
+    },
+    "statementCreditDenial": {
+        "denialOther1": false,
+        "denialOther2": false,
+        "descriptionofAccount1": "Mortgage Loan",
+        "descriptionofActionTaken1": "Credit Denial",
+        "ecoaAddress": "Equal Credit Opportunity",
+        "ecoaCity": "Washington",
+        "ecoaName": "Federal Trade Commission",
+        "ecoaPostalCode": "20580",
+        "ecoaState": "DC",
+        "lenderInvestorName": "PennyMac Loan Services, LLC",
+        "lenderInvestorAddress": "3043 Townsgate Road, Suite 200",
+        "lenderInvestorCity": "Westlake Village",
+        "lenderInvestorState": "CA",
+        "lenderInvestorPostalCode": "91361",
+        "lenderInvestorPhone": "866-584-9030"
+    },
+    "systemIdGuid": "d856b6b7-b787-4ac4-bfc0-07a25c9a750c",
+    "tilApplicationDate": "2023-03-30",
+    "titleHolderName1": "Sam Evans",
+    "titleHolderName2": "Tim Evans",
+    "tltv": 77.143,
+    "totalClosingCostsAmount": 998.19,
+    "totalFeesCostAmount": 576845.99,
+    "totalFeesCreditAmount": 445832.65,
+    "totalWireTransferAmount": 432000.0,
+    "tpo": {
+        "siteId": "6451889658",
+        "companyName": "BDL Test Broker 1",
+        "companyId": "3203397711",
+        "companyOrganizationId": "303",
+        "companyLegalName": "BDL Test Broker 1",
+        "companyAddress": "3043 Townsgate Road, Suite 200",
+        "companyCity": "Westlake Village",
+        "companyState": "CA",
+        "companyZip": "91361",
+        "companyPhone": "303-555-1212",
+        "companyManagerName": "TPO Broker Admin",
+        "companyManagerEmail": "tpoba@pnmac.com",
+        "companyAeName": "Account Executive User",
+        "companyAeUserName": "ae",
+        "branchName": "HQ-BDL Test Broker 1",
+        "branchId": "6871723183",
+        "branchOrganizationId": "303",
+        "branchLegalName": "BDL Test Broker 1",
+        "branchAddress": "3043 Townsgate Road, Suite 200",
+        "branchCity": "Westlake Village",
+        "branchState": "CA",
+        "branchZip": "91361",
+        "branchPhone": "303-555-1212",
+        "branchManagerName": "TPO Broker Admin",
+        "branchManagerEmail": "tpoba@pnmac.com",
+        "branchAeName": "Account Executive User",
+        "branchAeUserName": "ae",
+        "loName": "TPO LO User2",
+        "loId": "5792889584",
+        "loEmail": "tpolo2@pnmac.com",
+        "loStatus": "Enabled",
+        "loAddress": "3043 Townsgate Road, Suite 200",
+        "loCity": "Westlake Village",
+        "loState": "CA",
+        "loZip": "91361",
+        "loAeName": "Account Executive User",
+        "loAeUserName": "ae",
+        "lpName": "TPO LP User2",
+        "lpId": "4861409434",
+        "lpEmail": "tpolp2@pnmac.com",
+        "lpStatus": "Enabled",
+        "lpAddress": "3043 Townsgate Road, Suite 200",
+        "lpCity": "Westlake Village",
+        "lpState": "CA",
+        "lpZip": "91361",
+        "lpAeName": "Account Executive User",
+        "lpAeUserName": "ae",
+        "underwritingDelegated": false,
+        "preferredAus": "NoPreference"
+    },
+    "tql": {
+        "tqlFraudAlertsTotal": 0,
+        "tqlFraudAlertsTotalHigh": 0,
+        "tqlFraudAlertsTotalMedium": 0,
+        "tqlFraudAlertsTotalLow": 0,
+        "tqlFraudAlertsTotalHighUnaddressed": 0,
+        "tqlFraudAlertsTotalMediumUnaddressed": 0,
+        "tqlFraudAlertsTotalLowUnaddressed": 0,
+        "driveScore": 0,
+        "driveIdVerifyScore": 0,
+        "driveAppVerifyScore": 0,
+        "drivePropertyVerifyScore": 0,
+        "lomaOrLomrIndicator": false
+    },
+    "trustAccount": {},
+    "tsum": {
+        "mortgageOriginator": "ThirdParty",
+        "noteRateType": "NoteRate",
+        "numberOfMonthsReserves": 0,
+        "sellerNumber": "270070000",
+        "thirdPartyName1": "BDL Test Broker 1",
+        "verified": 49564.95
+    },
+    "uldd": {
+        "appraisalIdentifier": "0000AB000",
+        "attachmentType": "Detached",
+        "coBorrowerCountryCode": "US",
+        "countryCode": "US",
+        "creditScoreImpairmentType": "InsufficientCreditHistory",
+        "propertyEstateType": "FeeSimple",
+        "fannieCltv": 78,
+        "fannieFloodSpecialFeatureCode": "180",
+        "fannieHclTv": 78,
+        "fannieInvestorOwnershipPercent": 100,
+        "fannieLenderPaidMiInterestRateAdjustmentPercent": 0.0,
+        "fannieLoanProgramIdentifier": "LoanFirstTimeHomebuyer",
+        "fannieLtv": 78,
+        "fannieMiCoveragePercent": 0,
+        "fanniePoolOwnershipPercent": 0,
+        "fannieRateSpread": 0.0,
+        "fannieTlTv": 78,
+        "fannieMortgageType": "Conventional",
+        "freddieMortgageType": "Conventional",
+        "interestCalculationType": "Simple",
+        "investorOwnershipPercent": 100.0,
+        "multipleConcurrentlyClosingLienOnSubjectPropertyIndicator": false,
+        "notePayToName": "PennyMac Loan Services, LLC",
+        "primaryMiAbsenceReasonType": "NoMIBasedOnOriginalLTV",
+        "relatedLoanIndicator": false,
+        "sellerLoanIdentifier": "6130189413",
+        "servicerId": "270070000",
+        "specialFloodHazardAreaIndicator": false,
+        "temporaryBuydownIndicator": false,
+        "upbAmount": 432000.0,
+        "firstRateChangePaymentEffectiveDate": "2053-05-01",
+        "fannieBltv": 78,
+        "governmentAnnualPremiumPercent": 0.0,
+        "governmentUpfrontPremiumAmount": 0.0,
+        "governmentUpfrontPremiumPercent": 0.0,
+        "guarantyPercent": 0.0,
+        "monetaryEventGrossPrincipalAmount": 0.0,
+        "poolCurrentLoanCount": 0,
+        "poolCurrentPrincipalBalanceAmount": 0.0,
+        "poolMaturityPeriodCount": 0,
+        "certificatePrincipalBalanceAmount": 0.0,
+        "securityOriginalSubscriptionAmount": 0.0,
+        "mortgageOriginator": "Broker",
+        "ginnieConstructionMethodType": "Site Built",
+        "ginnieGovernmentAnnualPremiumAmount": 0.0
+    },
+    "underwriterSummary": {},
+    "underwritingEscrowIndicator": false,
+    "urlaLoanIdentifier": "6130189413/RVDPPPGHCGZ40J4VQ731613018941348",
+    "usda": {
+        "refinanceLoanIndicator": false
+    },
+    "use2018DiIndicator": true,
+    "useNew2015FormsIndicator": "RESPA-TILA 2015 LE and CD",
+    "vaLoanData": {
+        "totalDebtMonthlyPayment": 445.37,
+        "vaRecoupmentMonthlyDecreaseInPayment": -2507.94,
+        "vaRecoupmentTotalClosingCosts": 998.19,
+        "totalProposedMonthlyPayment": 2507.94,
+        "proposedTotalRemainingPaymentAmount": 666126.0,
+        "proposedHomeEquityRemainingAmount": 560000.0,
+        "cashDisbursedToBorrowerAmount": 0.0,
+        "disbursementsLessPayoffAmount": 15848.0,
+        "totalClosingCostLessGuaranteeFee": 998.19,
+        "includeSectionAIndicator": true,
+        "includeSectionBVaFundingFeeIndicator": true,
+        "includeSectionBOtherIndicator": true,
+        "includeSectionCIndicator": true,
+        "includeSectionEIndicator": true,
+        "includeSectionFIndicator": true,
+        "includeSectionHIndicator": true,
+        "includeLenderCreditIndicator": true
+    },
+    "valuationUsed": 560000.0,
+    "serverDateTimeDdmApplied": "2023-03-30T09:30:50Z",
+    "proposedHousingExpenseTotal": 2507.94,
+    "collateralTracking": {},
+    "borrCommunityPropertyStateResidentIndicator": true,
+    "communityPropertyStateResidentIndicator": true,
+    "renovationLoanIndicator": false,
+    "constructionLoanIndicator": false,
+    "propertyExistingCleanEnergyLienIndicator": false,
+    "titleWillBeFullName": "Sam Evans and Tim Evans",
+    "totalNonSubjectPropertyDebtsToBePaidOffAmount": 15847.8,
+    "borrEstimatedClosingCostsAmount": 998.19,
+    "urlaTotalMortgageLoansAmount": 432000.0,
+    "urlaTotalOtherCreditsAmount": 13832.65,
+    "totalOfGiftsGrants": 10000.02,
+    "totalOtherAssetToLoan": 5000.0,
+    "urlaTotalCreditsAmount": 13832.65,
+    "pudIndicator": false,
+    "notInProjectIndicator": true,
+    "printLenderPages": true,
+    "printUliAndLoanNoUrla": true,
+    "negativeAmortization": false,
+    "expectedBorrowerCount": 1,
+    "useEnhancedConditionIndicator": true,
+    "mersOrgId": "1007159",
+    "mom": true,
+    "isLoanAmountRounding": true,
+    "aiq": {},
+    "eClose": {}
+}
